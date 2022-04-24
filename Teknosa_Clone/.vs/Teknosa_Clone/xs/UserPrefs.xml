@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{5FA60943-5D61-4C5C-B0C0-FBE6DAAD33DC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/Views/Category.xaml">
     <Files>
-      <File FileName="Teknosa_Clone/Teknosa_Clone/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/Models/Item.cs" Line="1" Column="1" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/ViewModels/ItemsViewModel.cs" Line="7" Column="21" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/ViewModels/NewItemViewModel.cs" Line="1" Column="1" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/Category.xaml" Line="5" Column="21" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/AboutPage.xaml" Line="6" Column="21" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/AppShell.xaml" Line="35" Column="106" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/Category.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Teknosa_Clone" expanded="True">
             <Node name="Teknosa_Clone" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Category.xaml" expanded="True" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
