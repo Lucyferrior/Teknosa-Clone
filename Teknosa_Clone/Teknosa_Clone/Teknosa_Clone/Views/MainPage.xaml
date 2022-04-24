@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Teknosa_Clone.Views.MainPage"
+             xmlns:model="clr-namespace:Teknosa_Clone.Models"
+             xmlns:vm="clr-namespace:Teknosa_Clone.Views"
+             xmlns:local="clr-namespace:Teknosa_Clone.ViewModels" >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="icon_profile.png" Command="{Binding LoginCommand}" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout 
+                BackgroundColor="LightGray"
+                HorizontalOptions="Fill"
+                VerticalOptions="Start"
+                Padding="20, 10"
+                Margin="0"
+                Orientation="Horizontal">
+                <!-- arama kısmı -->
+                <Image Source="search.png"
+                       WidthRequest="17"
+                       HorizontalOptions="End"
+                       VerticalOptions="End"/>
+                <Label Text="Ürün, kategori veya marka ara"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="FillAndExpand"
+                        Padding="0"
+                        Margin="0"/>
+
+            </StackLayout>
+            <ScrollView
+                Orientation="Vertical"
+                VerticalOptions="Start"
+                HorizontalOptions="FillAndExpand">
+                <CollectionView x:Name="deneme" 
+                                ItemsSource="{Binding Items}"
+                                ItemsLayout="HorizontalList">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <StackLayout Margin= "10, 0"
+                                             WidthRequest="80">
+                                    <Frame CornerRadius="20"
+                                           Padding="10"
+                                           Margin="0"
+                                           BackgroundColor="LightGray">
+                                        <Image Source="{Binding ImageSource}"
+                                               HorizontalOptions="Center"
+                                               HeightRequest="60"
+                                               Margin="0"/>
+                                    </Frame>
+                                    <Label Text="{Binding Text}"
+                                           Margin="0"
+                                           Padding="0"
+                                           HorizontalTextAlignment="Center"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
