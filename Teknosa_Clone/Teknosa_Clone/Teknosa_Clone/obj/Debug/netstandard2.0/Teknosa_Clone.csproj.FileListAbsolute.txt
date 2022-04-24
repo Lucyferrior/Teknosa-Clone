@@ -2,17 +2,18 @@
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/bin/Debug/netstandard2.0/Teknosa_Clone.dll
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/bin/Debug/netstandard2.0/ref/Teknosa_Clone.dll
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/bin/Debug/netstandard2.0/Teknosa_Clone.pdb
-/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.csproj.AssemblyReference.cache
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/Category.xaml.g.cs
+/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/Category2.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/ItemsPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/SearchPage.xaml.g.cs
+/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/ShoppingCartPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.AssemblyInfoInputs.cache
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.AssemblyInfo.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.csproj.CoreCompileInputs.cache
@@ -20,5 +21,3 @@
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.dll
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/ref/Teknosa_Clone.dll
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.pdb
-/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/Category2.xaml.g.cs
-/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/ShoppingCartPage.xaml.g.cs

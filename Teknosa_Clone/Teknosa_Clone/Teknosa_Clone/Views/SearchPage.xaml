@@ -3,22 +3,24 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"    
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
              mc:Ignorable="d" x:Class="Teknosa_Clone.Views.SearchPage"
-             Shell.NavBarIsVisible="True">
+             Shell.NavBarIsVisible="False">
 
     
-    <NavigationPage.TitleView>    
-       <SearchBar Placeholder="Search items..."    
-           HorizontalTextAlignment="Center"    
-           FontSize="Medium"    
-           />    
-    </NavigationPage.TitleView>    
-    <StackLayout  VerticalOptions="StartAndExpand" HorizontalOptions="Center">    
-    <ImageButton Source="https://pngimg.com/uploads/barcode/barcode_PNG74.png"></ImageButton>
-    <Label Text="Barkodu Okut" HorizontalOptions="Center"></Label>
-    <Label Text="Popüler Aramalar"></Label>
+     
+    <StackLayout  >
+        <Entry x:Name="SearchEntry" Placeholder="Ürün, kategori veya marka ara" />
+    <ImageButton Source="https://www.iconsdb.com/icons/preview/orange/barcode-xxl.png" CornerRadius="180"
+                 Scale="0.7" HorizontalOptions="Center"></ImageButton>
+    <Label Text="Barkod Okut" Margin="0,0,0,0" HorizontalOptions="Center"></Label>
+
+    <Label Text="Popüler Aramalar" TextColor="Black" VerticalTextAlignment="Start" HorizontalTextAlignment="Start"
+           HorizontalOptions="Start"
+           Margin="10,20,0,5" FontFamily="Times"></Label>
     </StackLayout>
     
 </ContentPage>
+
+
 
 
 
