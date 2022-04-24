@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{5FA60943-5D61-4C5C-B0C0-FBE6DAAD33DC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/App.xaml.cs">
+    <Files>
+      <File FileName="Teknosa_Clone/Teknosa_Clone/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Models/Item.cs" Line="1" Column="1" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/ViewModels/ItemsViewModel.cs" Line="7" Column="21" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/ViewModels/NewItemViewModel.cs" Line="1" Column="1" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Teknosa_Clone" expanded="True">
+            <Node name="Teknosa_Clone" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.pixel_2_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -525,31 +525,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sefa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/ruchanyalcin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.csproj",
+      "projectUniqueName": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj",
       "projectName": "Teknosa_Clone",
-      "projectPath": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.csproj",
-      "packagesPath": "C:\\Users\\Sefa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\obj\\",
+      "projectPath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj",
+      "packagesPath": "/Users/ruchanyalcin/.nuget/packages/",
+      "outputPath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ruchanyalcin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -593,7 +586,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.104/RuntimeIdentifierGraph.json"
       }
     }
   }

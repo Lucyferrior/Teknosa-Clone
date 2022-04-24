@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ooy8YGfWGCoESY4mfHtrn7EPtchETVmKVHO79qZoqdJGkZd82P5kBStgXUQ6+kuak1H5I6SlOuleJCSa4jc/Ew==",
+  "dgSpecHash": "BXPSdEV1QdmGeVQ3uIopR6it1hezmu1YjS1niHEqzbSSO6VwB6ppoosrVPG28EhmpvKyBcuJlgNGpxHPfK7Tpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.iOS\\Teknosa_Clone.iOS.csproj",
+  "projectFilePath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.iOS/Teknosa_Clone.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sefa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Sefa\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Sefa\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "/Users/ruchanyalcin/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/ruchanyalcin/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/ruchanyalcin/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
