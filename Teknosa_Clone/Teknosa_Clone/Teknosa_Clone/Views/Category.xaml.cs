@@ -34,55 +34,55 @@ namespace Teknosa_Clone.Views
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://images-na.ssl-images-amazon.com/images/I/61v0enHOXpL._AC_SL1500_.jpg",
+                    productImage = "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/110016598/110016598_0_MC/52694612.jpg",
                     productName = "Televizyon, Ses ve Görüntü Sistemleri",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://images-na.ssl-images-amazon.com/images/I/71MHTD3uL4L._SL1500_.jpg",
+                    productImage = "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/781870048/781870048_0_MC/4a7a46d0236f411597c4c879a58989c7.jpg",
                     productName = "Beyaz Eşya ve Ankastre",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://images-na.ssl-images-amazon.com/images/I/71OYLm6srFL._SL1500_.jpg",
+                    productImage = "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/115043362/115043362_0_MC/27510863.jpg",
                     productName = "Elektrikli Ev Aletleri",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://images-na.ssl-images-amazon.com/images/I/813y2%2BdPUOL._AC_SL1500_.jpg",
+                    productImage = "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/787870081/787870081_0_MC/62159053.jpg",
                     productName = "Kişisel Bakım",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://images-na.ssl-images-amazon.com/images/I/813y2%2BdPUOL._AC_SL1500_.jpg",
+                    productImage = "https://img-teknosa-sap.mncdn.com/nav/konsol_210110.jpg",
                     productName = "Konsol, Oyun ve Oyuncu Ekipmanları",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://images-na.ssl-images-amazon.com/images/I/410mmBW-AYL._AC_.jpg",
+                    productImage = "https://img-teknosa-sap.mncdn.com/nav/fotograf_makinesi_210110.jpg",
                     productName = "Fotoğtaf Makinesi ve Kamera",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://images-na.ssl-images-amazon.com/images/I/71valQo5u5L._AC_SL1500_.jpg",
+                    productImage = "https://m.media-amazon.com/images/I/61sUTvBI1ZL._AC_SL1001_.jpg",
                     productName = "Ev ve Yaşam",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://images-na.ssl-images-amazon.com/images/I/61sLvszoETL._AC_SL1500_.jpg",
+                    productImage = "https://img-teknosa-sap.mncdn.com/nav/ofis_mobilyalari_210110.jpg",
                     productName = "Ofis Malzemeleri ve Mobilyaları",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://www.chip.com.tr/images/content/2021/03/18/20210318130429941119.jpg",
+                    productImage = "https://m.media-amazon.com/images/I/41m7Bb8Wa-L._AC_SL1024_.jpg",
                     productName = "Müzik Enstürman ve Ekipmanı",
                 });
             }
@@ -92,20 +92,7 @@ namespace Teknosa_Clone.Views
             }
         }
 
-        //private async void LstProducts_ItemTapped(object sender, ItemTappedEventArgs e)
-        //{
-        //    try
-        //    {
 
-        //        await DisplayAlert("You selected", selectedProduct.productName, "Buy", "Cancel");
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        await DisplayAlert("Error", ex.Message.ToString(), "Ok");
-        //    }
-        //    lstProducts.SelectedItem = null;
-        //}
 
         // Dediğim kısım
         private async void TapGestureRecognizer_Tapped(Object sender, ItemTappedEventArgs e)
