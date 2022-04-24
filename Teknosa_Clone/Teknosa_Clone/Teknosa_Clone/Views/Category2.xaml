@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Teknosa_Clone.Views.Category2">
+  <ContentPage.Content>
+   
+    
+    <ListView  x:Name="GroupedView"
+    GroupDisplayBinding="{Binding Title}"
+    RowHeight="75"
+    GroupShortNameBinding="{Binding ShortName}"
+    IsGroupingEnabled="true">
+
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ImageCell Text="{Binding Name}"
+            ImageSource="{Binding Icon}"
+            Height="75"
+            TextColor="Black"
+            />
+
+        </DataTemplate>
+      </ListView.ItemTemplate>
+      <ListView.GroupHeaderTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Orientation="Horizontal" Padding="5,5,5,5" BackgroundColor="White">
+               <Label Text="{Binding CategoryTitle}" 
+                     TextColor="Black"
+                     FontSize="20"
+                     FontAttributes="None"
+                     VerticalOptions="Center"
+                     HorizontalOptions="StartAndExpand"/>
+               
+              <Button Image="a.png"
+                      BorderWidth="0"
+                      Clicked="HeaderTapped"
+                      HorizontalOptions="EndAndExpand"
+                      CommandParameter="{Binding .}"/>
+              
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.GroupHeaderTemplate>
+    </ListView>
+    
+    
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="Teknosa_Clone.Views.CategoryPage"
+Title="XamarinForms ListView Example">
+
+
+<StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand" Padding="10">
+        
+
+    <ListView x:Name="lstProducts" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"
+        SeparatorColor="LightGray" SeparatorVisibility="Default" HasUnevenRows="True"
+        ItemTapped="TapGestureRecognizer_Tapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                        <StackLayout Orientation="Horizontal" 
+                                     Padding="5" 
+                                     VerticalOptions="FillAndExpand" 
+                                     MinimumHeightRequest="100">
+
+                            <Image Source="{Binding productImage}" 
+                                   WidthRequest="70" 
+                                   HeightRequest="70"/>
+
+                            <StackLayout Orientation="Vertical" 
+                                         Padding="2" 
+                                         VerticalOptions="Center">
+
+                                <Label Text="{Binding productName}" 
+                                       FontSize="20" Margin="2" 
+                                       TextColor="Black" 
+                                       FontAttributes="Bold"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical" 
+                                         VerticalOptions="Center" 
+                                         HorizontalOptions="EndAndExpand">
+                                <Label Text=">" FontSize="20" Margin="2" TextColor="Black" FontAttributes="Bold"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</StackLayout>
+
+</ContentPage>

@@ -9,17 +9,17 @@ namespace Teknosa_Clone.Services
 {
     public class CategorieDataStore
     {
-        public Collection<Categorie> categories;
+        public Collection<Category> categories;
         public CategorieDataStore()
         {
-            categories = new Collection<Categorie> { 
-                new Categorie {
+            categories = new Collection<Category> { 
+                new Category {
                     Id=Guid.NewGuid().ToString(),
                     Name ="television",
                     Text="Televizyon, Ses ve Görüntü Sistemleri",
                     ImageSource = ImageSource.FromFile("televizyon.png")
                 },
-                new Categorie
+                new Category
                 {
                     Id= Guid.NewGuid().ToString(),
                     Name = "television",
