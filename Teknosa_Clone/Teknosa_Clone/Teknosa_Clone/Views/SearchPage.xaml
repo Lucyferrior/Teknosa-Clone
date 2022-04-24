@@ -3,7 +3,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"    
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
              mc:Ignorable="d" x:Class="Teknosa_Clone.Views.SearchPage"
-             Shell.NavBarIsVisible="False">    
+             Shell.NavBarIsVisible="True">
+
     
     <NavigationPage.TitleView>    
        <SearchBar Placeholder="Search items..."    
@@ -17,5 +18,7 @@
     <Label Text="Popüler Aramalar"></Label>
     </StackLayout>
     
-</ContentPage>      
+</ContentPage>
+
+
 

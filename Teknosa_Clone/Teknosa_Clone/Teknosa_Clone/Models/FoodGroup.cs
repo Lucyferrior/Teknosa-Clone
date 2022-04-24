@@ -56,11 +56,11 @@ namespace Teknosa_Clone.Models
         {
             ObservableCollection<FoodGroup> Groups = new ObservableCollection<FoodGroup>{
                 new FoodGroup("Telefon"){
-                    new Food { Name = "Cep Telefonu", Icon="b.png" },
-                    new Food { Name = "Giyilebilir Teknoloji" },
-                    new Food { Name = "Kulaklık" },
-                    new Food { Name = "Masaüstü ve Telsiz Telefon" },
-                    new Food { Name = "Telefon Aksesuar" },
+                    new Food { Name = "Cep Telefonu", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/125078519/125078519_1_MC/61250704.jpg" },
+                    new Food { Name = "Giyilebilir Teknoloji", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/780152467/780152467_0_MC/43140919.jpg" },
+                    new Food { Name = "Kulaklık", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/110263107/110263107_0_MC/1234.jpg" },
+                    new Food { Name = "Masaüstü ve Telsiz Telefon", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/780450001/780450001_0_MC/5cb9da7ee14e43cab8929213e128cd08.jpg" },
+                    new Food { Name = "Telefon Aksesuar", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/145059446/145059446_1_MC/34372092.jpg" },
 
                 },
                 new FoodGroup("Bilgisayar ve Tablet"){

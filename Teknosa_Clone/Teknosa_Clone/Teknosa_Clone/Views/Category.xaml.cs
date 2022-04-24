@@ -23,12 +23,12 @@ namespace Teknosa_Clone.Views
                 obProducts.Add(new Products
                 {
                     productImage = "https://images-na.ssl-images-amazon.com/images/I/813y2%2BdPUOL._AC_SL1500_.jpg",
-                    productName = "Category2",
+                    productName = "Telefon",
                 });
 
                 obProducts.Add(new Products
                 {
-                    productImage = "https://m.media-amazon.com/images/I/71sNNCTfMuL._FMwebp__.jpg",
+                    productImage = "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/786280522/786280522_3_MC/e151bf2e72e7478d9ed32162b2259802.jpg",
                     productName = "Bilgisayar ve Tablet",
                 });
 
