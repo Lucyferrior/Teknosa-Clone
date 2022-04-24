@@ -1,12 +1,5 @@
 ﻿<Properties StartupConfiguration="{5FA60943-5D61-4C5C-B0C0-FBE6DAAD33DC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/Views/Category.xaml">
-    <Files>
-      <File FileName="Teknosa_Clone/Teknosa_Clone/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/Category.xaml" Line="5" Column="21" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/AboutPage.xaml" Line="6" Column="21" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/AppShell.xaml" Line="35" Column="106" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/Category.xaml.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -14,19 +7,27 @@
             <Node name="Teknosa_Clone" expanded="True">
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Category.xaml" expanded="True" selected="True" />
+                <Node name="SearchPage.xaml" expanded="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True">
+                <Node name="AppShell.xaml.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.pixel_2_r_11_0_-_api_30" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.abb40f2c" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.abb40f2c" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.2.99.125.125" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
