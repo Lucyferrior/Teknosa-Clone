@@ -10,61 +10,84 @@
         <ToolbarItem Icon="icon_profile.png" Command="{Binding LoginCommand}" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout 
+        <ScrollView>
+            <StackLayout>
+                <!--arama -->
+                <StackLayout
                 BackgroundColor="LightGray"
                 HorizontalOptions="Fill"
                 VerticalOptions="Start"
                 Padding="20, 10"
                 Margin="0"
                 Orientation="Horizontal">
-                <!-- arama kısmı -->
-                <Image Source="search.png"
+                    <Image Source="search.png"
                        WidthRequest="17"
-                       HorizontalOptions="End"
-                       VerticalOptions="End"/>
-                <Label Text="Ürün, kategori veya marka ara"
+                       VerticalOptions="Center"/>
+                    <Label Text="Ürün, kategori veya marka ara"
                        HorizontalOptions="FillAndExpand"
                        VerticalOptions="FillAndExpand"
                        TextColor="Black"
                        Padding="0"
                        Margin="0"/>
 
-            </StackLayout>
-            <ScrollView
+                </StackLayout>
+                <!--kategori  -->
+                <ScrollView
                 Orientation="Vertical"
-                VerticalOptions="Start"
+                HorizontalScrollBarVisibility="Never"
+                VerticalScrollBarVisibility="Never"
                 HorizontalOptions="FillAndExpand">
-                <CollectionView x:Name="deneme" 
-                                ItemsSource="{Binding Items}"
-                                ItemsLayout="HorizontalList">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout>
-                                <StackLayout Margin= "10, 0"
+                    <CollectionView ItemsSource="{Binding categoriesBinding}"
+                                ItemsLayout="HorizontalList"
+                                HeightRequest="170">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <StackLayout Margin= "10, 0"
                                              WidthRequest="80">
-                                    <Frame CornerRadius="20"
+                                        <Frame CornerRadius="20"
                                            Padding="10"
                                            Margin="0"
                                            BackgroundColor="LightGray">
-                                        <Image Source="{Binding ImageSource}"
+                                            <Image Source="{Binding ImageSource}"
                                                HorizontalOptions="Center"
                                                HeightRequest="60"
                                                Margin="0"/>
-                                    </Frame>
-                                    <Label Text="{Binding Text}"
-                                           Margin="0"
-                                           Padding="0"
+                                        </Frame>
+                                        <Label Text="{Binding Text}"
                                            TextColor="Black"
                                            HorizontalTextAlignment="Center"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </ScrollView>
+                <!--slayt -->
+                <CarouselView ItemsSource="{Binding slidesBinding}" Margin="0,0,10,0" HeightRequest="370">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Slide">
+                            <StackLayout BackgroundColor="#55526A">
+                                <Image Source="{Binding ImageSource}" Margin="0,0,10,0"/>
+                                <StackLayout Padding="20,10">
+                                    <Label Text="{Binding Description}" TextColor="White" FontSize="Subtitle"/>
+                                    <Label Text="{Binding Title}" TextColor="White" FontSize="Title"/>
+                                    <StackLayout Orientation="Horizontal" Padding="0,20">
+                                        <Button Text="İncele" TextColor="White" BorderColor="White" BorderWidth="1" TextTransform="None"
+                                            BackgroundColor="Transparent" CornerRadius="50" Margin="0" Padding="20,0"/>
+                                        <Label Text="1/9" VerticalOptions="Center"
+                                           TextColor="White"
+                                           HorizontalOptions="EndAndExpand"/>
+                                    </StackLayout>
                                 </StackLayout>
                             </StackLayout>
                         </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-            </ScrollView>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
 
-        </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 
 </ContentPage>

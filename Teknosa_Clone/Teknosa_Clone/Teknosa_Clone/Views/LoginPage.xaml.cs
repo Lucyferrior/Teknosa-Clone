@@ -30,7 +30,6 @@ namespace Teknosa_Clone.Views
             
             if(girisStack == processLayout)
             {
-                Trace.WriteLine("eveeet");
                 kayitStack.IsVisible = false;
             }
             if(kayitStack == processLayout)
