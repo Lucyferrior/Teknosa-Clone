@@ -21,3 +21,5 @@
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.dll
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/ref/Teknosa_Clone.dll
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.pdb
+/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.csproj.AssemblyReference.cache
+/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/AccountPage.xaml.g.cs

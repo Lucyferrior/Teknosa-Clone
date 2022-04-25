@@ -16,7 +16,7 @@ androidsdkpath=/users/ruchanyalcin/library/android/sdk/
 androidndkpath=
 javasdkpath=/library/java/javavirtualmachines/microsoft-11.jdk/contents/home/
 androidsequencepointsmode=none
-xamarinandroidversion=12.2.4-3
+xamarinandroidversion=12.3.0-3
 monosymbolarchive=false
 androiduselatestplatformsdk=false
 targetframeworkversion=v12.0
@@ -25,7 +25,7 @@ androidgeneratejnimarshalmethods=false
 os=unix
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=637864037836522270
+_nugetassetstimestamp=637864725514767982
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a

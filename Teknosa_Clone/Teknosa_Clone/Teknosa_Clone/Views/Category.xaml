@@ -8,10 +8,10 @@ Title="XamarinForms ListView Example">
 
 <StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand" Padding="10">
         
-
     <ListView x:Name="lstProducts" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"
         SeparatorColor="LightGray" SeparatorVisibility="Default" HasUnevenRows="True"
         ItemTapped="TapGestureRecognizer_Tapped">
+
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -27,7 +27,8 @@ Title="XamarinForms ListView Example">
                     </StackLayout>
                              
                     <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="EndAndExpand">
-                        <Label Text="İmage" FontSize="20" Margin="2" TextColor="Black" FontAttributes="Bold"/>
+                        <Image   HeightRequest="30" WidthRequest="30" Source="https://img.icons8.com/metro/344/chevron-right.png"/>
+                        
                     </StackLayout>
 
                 </StackLayout>

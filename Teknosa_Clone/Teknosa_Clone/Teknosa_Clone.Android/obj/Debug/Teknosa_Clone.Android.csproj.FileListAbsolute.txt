@@ -630,3 +630,4 @@
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.Android/obj/Debug/android/assets/Java.Interop.pdb

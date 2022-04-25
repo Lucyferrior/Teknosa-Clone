@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="Teknosa_Clone.Views.AccountPage"
+Title="XamarinForms ListView Example">
+
+
+<StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand" Padding="10">
+      <Label Text="Ruchan Yalçın" BackgroundColor="DarkBlue" TextColor="White"
+               HeightRequest="150" WidthRequest="500"
+             FontSize="Large"></Label>
+
+
+    <ListView x:Name="lstProducts" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"
+        SeparatorColor="Gray" SeparatorVisibility="Default" HasUnevenRows="True"
+        ItemTapped="TapGestureRecognizer_Tapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                <StackLayout Orientation="Horizontal" Margin="5" VerticalOptions="FillAndExpand" MinimumHeightRequest="60">
+
+                    <Image Source="{Binding productImage}" WidthRequest="30" HeightRequest="30"/>
+
+                    <StackLayout Orientation="Vertical" Padding="2" VerticalOptions="Center">
+                        <Label Text="{Binding productName}" FontSize="12" Margin="2" TextColor="Black" FontAttributes="Bold">
+                                    
+                        </Label>
+                       
+                    </StackLayout>
+                             
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="EndAndExpand">
+                        <Image   HeightRequest="30" WidthRequest="30" Source="https://img.icons8.com/metro/344/chevron-right.png"/>
+                    </StackLayout>
+
+                </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</StackLayout>
+
+</ContentPage>
