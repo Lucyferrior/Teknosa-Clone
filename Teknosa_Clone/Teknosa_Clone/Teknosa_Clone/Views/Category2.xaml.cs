@@ -48,5 +48,6 @@ namespace Teknosa_Clone.Views
             }
             GroupedView.ItemsSource = _expandedGroups;
         }
+
     }
 }
