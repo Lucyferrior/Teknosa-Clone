@@ -9,12 +9,12 @@ Title="XamarinForms ListView Example">
 <Grid>
 
     <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Margin="0,0,0,470" BackgroundColor="Black">
-        <Image Source="https://img.icons8.com/ios/50/000000/circled.png"
+        <Image Source="https://img.icons8.com/emoji/344/orange-circle-emoji.png"
                ></Image>
         <Label Text="Ruchan Yalçın"  TextColor="White"
                HeightRequest="150" WidthRequest="500"
              FontSize="20"
-               HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="30,0,0,0"></Label>
+               HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="0,0,30,10"></Label>
 
 
     </StackLayout>

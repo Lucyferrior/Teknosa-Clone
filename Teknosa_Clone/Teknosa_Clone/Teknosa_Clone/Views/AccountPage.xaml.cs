@@ -21,7 +21,6 @@ namespace Teknosa_Clone.Views
             AddProducts();
 
             lstProducts.ItemsSource = obProducts;
-
         }
 
         async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -41,7 +40,7 @@ namespace Teknosa_Clone.Views
             obProducts.Add(new Products
             {
                 productName = "Siparişlerim",
-                productImage = "https://icons8.com/icon/37375/circle"//"https://img.icons8.com/ios/344/shopping-cart.png"
+                productImage = "https://img.icons8.com/ios/344/shopping-cart.png"
             });
 
 
