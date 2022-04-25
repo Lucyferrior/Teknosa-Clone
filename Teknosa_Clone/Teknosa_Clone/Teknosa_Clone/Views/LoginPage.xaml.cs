@@ -23,13 +23,19 @@ namespace Teknosa_Clone.Views
             StackLayout senderStack = sender as StackLayout;
             StackLayout stackLayout = senderStack.Parent as StackLayout;
             StackLayout processLayout = stackLayout.Children[1] as StackLayout;
+
             processLayout.IsVisible = processLayout.IsVisible ? false : true;
 
             Trace.WriteLine(senderStack + " " + nameof(stackLayout));
             
-            if(senderStack == processLayout)
+            if(girisStack == processLayout)
             {
                 Trace.WriteLine("eveeet");
+                kayitStack.IsVisible = false;
+            }
+            if(kayitStack == processLayout)
+            {
+                girisStack.IsVisible = false;
             }
 
         }

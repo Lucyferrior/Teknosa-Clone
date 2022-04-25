@@ -24,10 +24,11 @@
                        HorizontalOptions="End"
                        VerticalOptions="End"/>
                 <Label Text="Ürün, kategori veya marka ara"
-                        HorizontalOptions="FillAndExpand"
-                        VerticalOptions="FillAndExpand"
-                        Padding="0"
-                        Margin="0"/>
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       TextColor="Black"
+                       Padding="0"
+                       Margin="0"/>
 
             </StackLayout>
             <ScrollView
@@ -54,6 +55,7 @@
                                     <Label Text="{Binding Text}"
                                            Margin="0"
                                            Padding="0"
+                                           TextColor="Black"
                                            HorizontalTextAlignment="Center"/>
                                 </StackLayout>
                             </StackLayout>
