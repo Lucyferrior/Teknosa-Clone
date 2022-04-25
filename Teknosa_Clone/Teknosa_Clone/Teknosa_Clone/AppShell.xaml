@@ -31,8 +31,7 @@
 
     <TabBar>
         <ShellContent Title="Kategori" Icon="icon_fav.png" ContentTemplate="{DataTemplate local:Category}" />
-        <ShellContent Title="Arama" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:SearchPage}" />
-        <ShellContent Title="Sepet" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ShoppingCartPage}" />
+        <ShellContent Title="Sepetim" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ShoppingCartPage}" />
         <ShellContent Title="Hesabım" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:AccountPage}" />
 
 
