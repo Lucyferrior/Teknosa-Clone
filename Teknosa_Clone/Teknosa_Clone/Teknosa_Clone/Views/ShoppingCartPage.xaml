@@ -4,10 +4,19 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Teknosa_Clone.Views.ShoppingCartPage"
     Shell.BackgroundColor="DarkOrange"
-    >
+    Shell.NavBarIsVisible="False">
+
     
     <ContentPage.Content>
         <Grid BackgroundColor="DarkOrange">
+            <StackLayout VerticalOptions="StartAndExpand" Orientation="Horizontal" Margin="10,5,20,0">
+                <Label Text="Sepet"  TextColor="White"></Label>
+                <ImageButton Source="https://img.icons8.com/ios-filled/344/ffffff/x.png"
+                             BackgroundColor="Transparent"
+                             HeightRequest="13"
+                             HorizontalOptions="EndAndExpand"></ImageButton>
+
+            </StackLayout>
             <StackLayout VerticalOptions="Center" Orientation="Vertical" HorizontalOptions="Center">
                 <Image Source="https://img.icons8.com/ios/344/shopping-cart.png" HeightRequest="40"></Image>
                 <Label Text="Sepetinizde henüz ürün bulunmuyor" FontSize="15" FontAttributes="Bold"
