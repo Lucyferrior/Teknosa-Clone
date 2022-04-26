@@ -83,36 +83,33 @@
                     </CarouselView.ItemTemplate>
                 </CarouselView>
 
-                <ScrollView Orientation="Vertical" >
-                    <CollectionView ItemsSource="{Binding categoriesBinding}"
-                                ItemsLayout="HorizontalList"
-                                    HeightRequest="50">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <StackLayout x:Name="enBtns" Orientation="Horizontal" >
-                                    <StackLayout.Resources>
-                                        <Style TargetType="Button">
-                                            <Setter Property="TextColor" Value="Black"/>
-                                            <Setter Property="CornerRadius" Value="50"/>
-                                            <Setter Property="FontSize" Value="Micro"/>
-                                        </Style>
-                                    </StackLayout.Resources>
-                                    <Button Text="En Yeniler" BackgroundColor="Transparent" Clicked="Button_Clicked" />
-                                    <Button Text="Yılın Çok Satanları" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
-                                    <Button Text="İlginizi Çekebilecek Ürünler" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
-                                    <Button Text="Bugün Öne Çıkanlar" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
-                                </StackLayout>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-                </ScrollView>
-                <StackLayout Orientation="Horizontal">
-                    <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
-                        <Label Text="Telefonla Satış Hizmetiyle Hızlı ve Güvenli Alışveriş!" FontSize="Medium"/>
-                        <Label Text="Dilediğiniz ürünü satış temsilcimiz yardımıyla satın almak için hemen arayın."
-                               FontSize="Small"/>
+                <ScrollView Orientation="Horizontal" VerticalScrollBarVisibility="Never"
+                            HorizontalScrollBarVisibility="Never">
+                    <StackLayout x:Name="butonlar" Orientation="Horizontal">
+                        <StackLayout.Resources>
+                            <Style TargetType="Button">
+                                <Setter Property="TextColor" Value="Black"/>
+                                <Setter Property="CornerRadius" Value="50"/>
+                                <Setter Property="FontSize" Value="Micro"/>
+                            </Style>
+                        </StackLayout.Resources>
+                        <Button Text="En Yeniler" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+                        <Button Text="Yılın Çok Satanları" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+                        <Button Text="İlginizi Çekebilecek Ürünler" BackgroundColor="Transparent" Clicked="Button_Clicked" />
+                        <Button Text="Bugün Öne Çıkanlar" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
                     </StackLayout>
-                    <Image Source="cagrimerkez.jpg" WidthRequest="200" VerticalOptions="StartAndExpand"/>
+                </ScrollView>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#0e083e">
+                    <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" Padding="10">
+                        <Label Text="Telefonla Satış Hizmetiyle Hızlı ve Güvenli Alışveriş!" TextColor="White" FontSize="Medium"/>
+                        <Label Text="Dilediğiniz ürünü satış temsilcimiz yardımıyla satın almak için hemen arayın."
+                               FontSize="Small" TextColor="White"/>
+                        <Button Text="Şimdi Ara" BackgroundColor="{StaticResource Primary}" TextColor="White"
+                                HorizontalOptions="Start"/>
+                    </StackLayout>
+                    <Frame WidthRequest="200" Padding="0" Margin="0" BackgroundColor="Transparent">
+                        <Image Source="cagrimerkez.jpg" VerticalOptions="Fill"/>
+                    </Frame>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
