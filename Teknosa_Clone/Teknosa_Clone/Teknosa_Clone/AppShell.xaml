@@ -31,7 +31,7 @@
 
     <TabBar>
         <ShellContent Title="Ana Sayfa" Icon="icon_main.png" Route="AboutPage" ContentTemplate="{DataTemplate local:MainPage}" />
-        <ShellContent Title="Kategoriler" Icon="icon_categories.png" ContentTemplate="{DataTemplate local:CategoriesPage}" />
+        <ShellContent Title="Kategoriler" Icon="icon_categories.png" ContentTemplate="{DataTemplate local:CategoryPage}" />
         <ShellContent Title="Sepetim" Icon="icon_navcart.png" ContentTemplate="{DataTemplate local:CategoriesPage}" />
         <ShellContent Title="Favorilerim" Icon="icon_fav.png" ContentTemplate="{DataTemplate local:CategoriesPage}" />
         <ShellContent Title="Destek" Icon="icon_help.png" ContentTemplate="{DataTemplate local:CategoriesPage}" />

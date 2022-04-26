@@ -12,7 +12,6 @@ namespace Teknosa_Clone.ViewModels
     {
         public Command LoginCommand { get; }
 
-
         public LoginViewModel()
         {
             LoginCommand = new Command(OnLoginClicked);

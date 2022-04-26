@@ -3,13 +3,122 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             Shell.PresentationMode="ModalAnimated"
-             mc:Ignorable="d"
-             x:Class="Teknosa_Clone.Views.LoginPage"
-             Shell.NavBarIsVisible="False">
+             Title="Teknosa'ya Hoşgeldiniz"
+             Shell.BackgroundColor="White"
+             Shell.ForegroundColor="Black"
+             Shell.TitleColor="Black"
+             BackgroundColor="#e9e9e9"
+             x:Class="Teknosa_Clone.Views.LoginPage">
     <ContentPage.Content>
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Button VerticalOptions="Center" Text="Login" />
-        </StackLayout>
+        <ScrollView>
+
+            <StackLayout Padding="10"
+                         VerticalOptions="FillAndExpand">
+
+                <StackLayout.Resources>
+                    <Style TargetType="Entry">
+                        <Setter Property="BackgroundColor" Value="#FBFBFB"></Setter>
+                        <Setter Property="PlaceholderColor" Value="DarkGray"></Setter>
+                    </Style>
+                </StackLayout.Resources>
+                
+                <StackLayout BackgroundColor="White">
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="onTapped"/>
+                        </StackLayout.GestureRecognizers>
+                        <Label Text="Üye Girişi"
+                       TextColor="Black"
+                       VerticalOptions="Center"
+                       Padding="15"
+                       HorizontalOptions="Start"/>
+                        <Label Text=">"
+                       HorizontalOptions="EndAndExpand"
+                       TextColor="Black"
+                       FontSize="20"
+                       Padding="10"
+                       Margin="0"
+                       Rotation="90"/>
+                    </StackLayout>
+
+                    <StackLayout Padding="10" IsVisible="false" x:Name="girisStack">
+                        <Entry IsTextPredictionEnabled="False"
+                               Keyboard="Email"
+                               TextColor="Black"
+                               x:Name="ePosta"
+                               Placeholder="E-Posta"/>
+                        <Entry IsTextPredictionEnabled="False"
+                               TextColor="Black"
+                               Placeholder="Şifre"
+                               IsPassword="True"/>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox Color="Black"/>
+                            <Label Text="Beni Hatirla" VerticalOptions="Center"/>
+                            <Label Text="Şifremi Unuttum" VerticalOptions="Center" TextColor="Black" HorizontalOptions="EndAndExpand" TextDecorations="Underline"/>
+                        </StackLayout>
+                        <Button Text="Giriş Yap"
+                            TextColor="Black"
+                            BackgroundColor="#e9e9e9"
+                            CornerRadius="50"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="White">
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="onTapped"/>
+                        </StackLayout.GestureRecognizers>
+                        <Label Text="Üye Ol"
+                       TextColor="Black"
+                       VerticalOptions="Center"
+                       Padding="15"
+                       HorizontalOptions="Start"/>
+                        <Label Text=">"
+                       HorizontalOptions="EndAndExpand"
+                       FontSize="20"
+                       TextColor="Black"
+                       Padding="10"
+                       Margin="0"
+                       Rotation="90"/>
+                    </StackLayout>
+
+                    <StackLayout Padding="10" x:Name="kayitStack" IsVisible="false">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry HorizontalOptions="FillAndExpand"
+                                   TextColor="Black"
+                                   Placeholder="Ad"/>
+                            <Entry HorizontalOptions="FillAndExpand"
+                                   TextColor="Black"
+                                   Placeholder="Soyad"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Entry Placeholder="E-Posta" Keyboard="Email" TextColor="Black"/>
+                            <Entry Placeholder="Cep Telefonu" Keyboard="Numeric" TextColor="Black"/>
+                            <Entry Placeholder="Şifre" IsPassword="True" TextColor="Black"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="icon_about" WidthRequest="20" 
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Start"
+                                   Margin="10,2,0,0"/>
+                                <Label Text="En az 1 büyük har ve 1 küçük harf içermelidir. Minimum 8 karakter içermelidir. En az 1 rakam içermelidir." TextColor="Black"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox Color="Black" VerticalOptions="Center"/>
+                            <Label Text="Profilleme ve Kişiselleştirme izni" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox Color="Black" VerticalOptions="Center"/>
+                            <Label Text="İletişim İzinleri" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                        <Button Text="Onay Kodu İste" BackgroundColor="#e9e9e9" 
+                            TextColor="Black"
+                            CornerRadius="50"/>
+                        <Label Text="Onay Kodu İste butonuna basarak Üyelik Sözleşmesini, Gizlilik ve Çerez Politikasını okuduğunuzu ve kabul ettiğinizi onaylıyorsunuz." TextColor="Black"/>
+                        <Label Text="Üye aydınlatma menine buradan ulaşabilirsiniz." TextColor="Black" Margin="0,20,0,0"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

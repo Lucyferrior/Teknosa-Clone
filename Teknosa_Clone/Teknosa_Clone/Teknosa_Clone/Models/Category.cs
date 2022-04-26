@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace Teknosa_Clone.Models
 {
-    public class Categorie
+    public class Category
     {
         public string Id { get; set; }
         public string Name { get; set; }
