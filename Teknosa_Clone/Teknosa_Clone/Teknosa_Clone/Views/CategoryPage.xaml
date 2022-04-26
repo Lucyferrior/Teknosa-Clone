@@ -12,9 +12,9 @@ Title="XamarinForms ListView Example">
     <ListView x:Name="lstProducts" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"
         SeparatorColor="LightGray" SeparatorVisibility="Default" HasUnevenRows="True"
         ItemTapped="TapGestureRecognizer_Tapped">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
                         <StackLayout Orientation="Horizontal" 
                                      Padding="5" 
                                      VerticalOptions="FillAndExpand" 
@@ -40,9 +40,9 @@ Title="XamarinForms ListView Example">
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
 </StackLayout>
 

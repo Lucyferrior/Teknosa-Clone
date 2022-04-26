@@ -9,12 +9,12 @@ using Teknosa_Clone.Models;
 
 namespace Teknosa_Clone.Views
 {
-    public partial class Category2 : ContentPage
+    public partial class CategoryPage2 : ContentPage
     {
         private ObservableCollection<FoodGroup> _allGroups;
         private ObservableCollection<FoodGroup> _expandedGroups;
 
-        public Category2()
+        public CategoryPage2()
         {
             InitializeComponent();
             _allGroups = FoodGroup.All;
