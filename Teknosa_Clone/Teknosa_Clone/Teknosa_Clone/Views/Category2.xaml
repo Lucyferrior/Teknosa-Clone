@@ -9,7 +9,9 @@
     GroupDisplayBinding="{Binding Title}"
     RowHeight="75"
     GroupShortNameBinding="{Binding ShortName}"
-    IsGroupingEnabled="true">
+    IsGroupingEnabled="true"
+    SeparatorVisibility="Default"
+    SeparatorColor="Gray">
 
       <ListView.ItemTemplate>
         <DataTemplate>
@@ -32,11 +34,18 @@
                      VerticalOptions="Center"
                      HorizontalOptions="StartAndExpand"/>
                
-              <Button Image="a.png"
-                      BorderWidth="0"
+              <!--<Button BackgroundColor="Transparent" ImageSource="https://img.icons8.com/metro/344/chevron-right.png"
+                      MinimumHeightRequest="30"
+                      Clicked="HeaderTapped"
+                      HorizontalOptions="EndAndExpand"
+                      CommandParameter="{Binding .}"/>-->
+
+             <ImageButton Source="https://img.icons8.com/metro/344/chevron-right.png" BackgroundColor="Transparent"
+                      HeightRequest="20"
                       Clicked="HeaderTapped"
                       HorizontalOptions="EndAndExpand"
                       CommandParameter="{Binding .}"/>
+                       
               
             </StackLayout>
           </ViewCell>
