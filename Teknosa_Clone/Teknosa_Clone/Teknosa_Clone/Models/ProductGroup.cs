@@ -10,7 +10,7 @@ using Xamarin.Forms;
 namespace Teknosa_Clone.Models
 {
 
-    public class FoodGroup : ObservableCollection<Food>, INotifyPropertyChanged
+    public class ProductGroup : ObservableCollection<Food>, INotifyPropertyChanged
     {
 
         private bool _expanded;
@@ -44,18 +44,18 @@ namespace Teknosa_Clone.Models
 
 
 
-        public FoodGroup(string title, bool expanded = true)
+        public ProductGroup(string title, bool expanded = true)
         {
             Title = title;
             Expanded = expanded;
         }
 
-        public static ObservableCollection<FoodGroup> All { private set; get; }
+        public static ObservableCollection<ProductGroup> All { private set; get; }
 
-        static FoodGroup()
+        static ProductGroup()
         {
-            ObservableCollection<FoodGroup> Groups = new ObservableCollection<FoodGroup>{
-                new FoodGroup("Telefon"){
+            ObservableCollection<ProductGroup> Groups = new ObservableCollection<ProductGroup>{
+                new ProductGroup("Telefon"){
                     new Food { Name = "Cep Telefonu", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/125078519/125078519_1_MC/61250704.jpg" },
                     new Food { Name = "Giyilebilir Teknoloji", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/780152467/780152467_0_MC/43140919.jpg" },
                     new Food { Name = "Kulaklık", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/110263107/110263107_0_MC/1234.jpg" },
