@@ -11,6 +11,7 @@ namespace Teknosa_Clone.Services
         public Collection<Slide> slideCollection;
         public SlideDataStore()
         {
+            
             slideCollection = new Collection<Slide>
             {
                 new Slide

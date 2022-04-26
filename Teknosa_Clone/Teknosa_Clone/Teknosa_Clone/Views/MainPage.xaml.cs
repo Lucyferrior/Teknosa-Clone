@@ -21,5 +21,18 @@ namespace Teknosa_Clone.Views
         {
             base.OnAppearing();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;/*
+            foreach (Button item in enBtns.Children)
+            {
+                item.BackgroundColor = Color.White;
+                item.TextColor = Color.Black;
+            }*/
+            
+            btn.BackgroundColor = Color.Black;
+            btn.TextColor = Color.White;
+        }
     }
 }

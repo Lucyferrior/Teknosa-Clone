@@ -14,7 +14,6 @@ namespace Teknosa_Clone.ViewModels
     {
         public Collection<Category> categoriesBinding { get; set; }
         public Collection<Slide> slidesBinding { get; set; }
-
         CategoryDataStore categoryStore = new CategoryDataStore();
         SlideDataStore slideStore = new SlideDataStore();
         public MainPageViewModel()
