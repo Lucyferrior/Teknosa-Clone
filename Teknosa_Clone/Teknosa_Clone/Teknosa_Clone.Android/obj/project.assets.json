@@ -3172,39 +3172,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sefa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/ruchanyalcin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.Android\\Teknosa_Clone.Android.csproj",
+      "projectUniqueName": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.Android/Teknosa_Clone.Android.csproj",
       "projectName": "Teknosa_Clone.Android",
-      "projectPath": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.Android\\Teknosa_Clone.Android.csproj",
-      "packagesPath": "C:\\Users\\Sefa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.Android\\obj\\",
+      "projectPath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.Android/Teknosa_Clone.Android.csproj",
+      "packagesPath": "/Users/ruchanyalcin/.nuget/packages/",
+      "outputPath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ruchanyalcin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid12.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.csproj": {
-              "projectPath": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.csproj"
+            "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj": {
+              "projectPath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj"
             }
           }
         }
