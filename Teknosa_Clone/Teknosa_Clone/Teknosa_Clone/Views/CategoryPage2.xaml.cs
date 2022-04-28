@@ -24,7 +24,7 @@ namespace Teknosa_Clone.Views
         private void HeaderTapped(object sender, EventArgs args)
         {
             int selectedIndex = _expandedGroups.IndexOf(
-                ((FoodGroup)((Button)sender).CommandParameter));
+                ((FoodGroup)((ImageButton)sender).CommandParameter));
             _allGroups[selectedIndex].Expanded = !_allGroups[selectedIndex].Expanded;
             UpdateListContent();
         }
@@ -48,5 +48,6 @@ namespace Teknosa_Clone.Views
             }
             GroupedView.ItemsSource = _expandedGroups;
         }
+
     }
 }
