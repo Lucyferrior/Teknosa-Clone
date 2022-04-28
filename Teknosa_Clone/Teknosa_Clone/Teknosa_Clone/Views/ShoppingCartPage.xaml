@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Teknosa_Clone.Views.ShoppingCartPage"
+    Shell.BackgroundColor="DarkOrange"
+    Shell.NavBarIsVisible="False">
+
+    
+    <ContentPage.Content>
+        <Grid BackgroundColor="DarkOrange">
+            <StackLayout VerticalOptions="StartAndExpand" Orientation="Horizontal" Margin="10,5,20,0">
+                <Label Text="Sepet"  TextColor="White"></Label>
+                <ImageButton Source="https://img.icons8.com/ios-filled/344/ffffff/x.png"
+                             BackgroundColor="Transparent"
+                             HeightRequest="13"
+                             HorizontalOptions="EndAndExpand"></ImageButton>
+
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Orientation="Vertical" HorizontalOptions="Center">
+                <Image Source="https://img.icons8.com/ios/344/shopping-cart.png" HeightRequest="40"></Image>
+                <Label Text="Sepetinizde henüz ürün bulunmuyor" FontSize="15" FontAttributes="Bold"
+                       TextColor="White" TextDecorations="None"
+                       Margin="20,30,0,30"></Label>
+                <Button Text="Alışverişe Başla" TextColor="Black" BorderColor="Gray"
+                        FontSize="12"
+                        BackgroundColor="White"
+                        BorderWidth="0.5" CornerRadius="50"
+                        Margin="0,0,0,0"></Button>
+
+                
+            </StackLayout>
+
+            <StackLayout VerticalOptions="End">
+
+                <Image Source="https://www.firmaurfa.com/wp-content/uploads/2017/01/teknosa-logo.jpg" HeightRequest="40">
+             
+                </Image>
+            </StackLayout>
+            
+
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>
