@@ -2,10 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Teknosa_Clone.Views.CategoryPage2">
+<<<<<<< HEAD
     <ContentPage.Content>
 
 
         <ListView  x:Name="GroupedView"
+=======
+  <ContentPage.Content>
+   
+    
+    <ListView  x:Name="GroupedView"
+>>>>>>> main
     GroupDisplayBinding="{Binding Title}"
     RowHeight="75"
     GroupShortNameBinding="{Binding ShortName}"
@@ -13,14 +20,21 @@
     SeparatorVisibility="Default"
     SeparatorColor="Gray">
 
+<<<<<<< HEAD
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ImageCell Text="{Binding Name}"
+=======
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ImageCell Text="{Binding Name}"
+>>>>>>> main
             ImageSource="{Binding Icon}"
             Height="75"
             TextColor="Black"
             />
 
+<<<<<<< HEAD
                 </DataTemplate>
             </ListView.ItemTemplate>
             <ListView.GroupHeaderTemplate>
@@ -28,23 +42,42 @@
                     <ViewCell>
                         <StackLayout Orientation="Horizontal" Padding="5,5,5,5" BackgroundColor="White">
                             <Label Text="{Binding CategoryTitle}" 
+=======
+        </DataTemplate>
+      </ListView.ItemTemplate>
+      <ListView.GroupHeaderTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Orientation="Horizontal" Padding="5,5,5,5" BackgroundColor="White">
+               <Label Text="{Binding CategoryTitle}" 
+>>>>>>> main
                      TextColor="Black"
                      FontSize="20"
                      FontAttributes="None"
                      VerticalOptions="Center"
                      HorizontalOptions="StartAndExpand"/>
+<<<<<<< HEAD
 
                             <!--<Button BackgroundColor="Transparent" ImageSource="https://img.icons8.com/metro/344/chevron-right.png"
+=======
+               
+              <!--<Button BackgroundColor="Transparent" ImageSource="https://img.icons8.com/metro/344/chevron-right.png"
+>>>>>>> main
                       MinimumHeightRequest="30"
                       Clicked="HeaderTapped"
                       HorizontalOptions="EndAndExpand"
                       CommandParameter="{Binding .}"/>-->
 
+<<<<<<< HEAD
                             <ImageButton Source="https://img.icons8.com/metro/344/chevron-right.png" BackgroundColor="Transparent"
+=======
+             <ImageButton Source="https://img.icons8.com/metro/344/chevron-right.png" BackgroundColor="Transparent"
+>>>>>>> main
                       HeightRequest="20"
                       Clicked="HeaderTapped"
                       HorizontalOptions="EndAndExpand"
                       CommandParameter="{Binding .}"/>
+<<<<<<< HEAD
 
 
                         </StackLayout>
@@ -55,4 +88,16 @@
 
 
     </ContentPage.Content>
+=======
+                       
+              
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.GroupHeaderTemplate>
+    </ListView>
+    
+    
+  </ContentPage.Content>
+>>>>>>> main
 </ContentPage>

@@ -94,4 +94,7 @@ namespace Teknosa_Clone.Views
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
