@@ -100,7 +100,7 @@ namespace Teknosa_Clone.Views
             var selectedProduct = (Products)e.Item;
 
 
-            await Navigation.PushAsync(new Category2());
+            await Navigation.PushAsync(new CategoryPage2());
         }
     }
 }
