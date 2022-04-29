@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Teknosa_Clone.Models
 
@@ -9,3 +14,4 @@ namespace Teknosa_Clone.Models
         public string Icon { get; set; }
     }
 }
+

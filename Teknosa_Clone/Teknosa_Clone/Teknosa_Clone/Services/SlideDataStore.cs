@@ -28,7 +28,7 @@ namespace Teknosa_Clone.Services
                     Name = "slideAnneler",
                     Title = "Anneler Günü Fırsatlaro Teknosa'da",
                     Description = "Tüm Anneler İçin Hediyeler",
-                    ImageSource= ImageSource.FromFile("anneler.webp")
+                    ImageSource= ImageSource.FromUri(new Uri("https://lh3.googleusercontent.com/cooO04i5VN8zf7O-NeIqJ1GHHRtc06fjq6Wr0dCJao__oloD0yaqoGYRY3dx58Z3oGlgziY4S3UzUv4ivCUa=w1920-h955"))
                 },
                 new Slide
                 {

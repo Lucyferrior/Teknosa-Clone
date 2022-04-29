@@ -69,7 +69,7 @@
                     <CarouselView.ItemTemplate>
                         <DataTemplate>
                             <StackLayout BackgroundColor="#55526A">
-                                <Image Source="{Binding ImageSource}" Margin="0,0,10,0"/>
+                                <Image Source="{Binding ImageSource}" Margin="0,0,10,0" VerticalOptions="FillAndExpand"/>
                                 <StackLayout Padding="20,10">
                                     <Label Text="{Binding Description}" TextColor="White" FontSize="Subtitle"/>
                                     <Label Text="{Binding Title}" TextColor="White" FontSize="Title"/>
