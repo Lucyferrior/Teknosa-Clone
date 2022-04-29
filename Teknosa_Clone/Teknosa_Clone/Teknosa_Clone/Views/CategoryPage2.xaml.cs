@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Teknosa_Clone.Models;
-
 namespace Teknosa_Clone.Views
 {
     public partial class CategoryPage2 : ContentPage
@@ -24,7 +23,7 @@ namespace Teknosa_Clone.Views
         private void HeaderTapped(object sender, EventArgs args)
         {
             int selectedIndex = _expandedGroups.IndexOf(
-                ((FoodGroup)((Button)sender).CommandParameter));
+                ((FoodGroup)((ImageButton)sender).CommandParameter));
             _allGroups[selectedIndex].Expanded = !_allGroups[selectedIndex].Expanded;
             UpdateListContent();
         }
@@ -48,5 +47,6 @@ namespace Teknosa_Clone.Views
             }
             GroupedView.ItemsSource = _expandedGroups;
         }
+
     }
 }

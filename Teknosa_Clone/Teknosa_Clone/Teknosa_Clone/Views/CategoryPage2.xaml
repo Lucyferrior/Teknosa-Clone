@@ -2,48 +2,57 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Teknosa_Clone.Views.CategoryPage2">
-  <ContentPage.Content>
-   
-    
-    <ListView  x:Name="GroupedView"
+    <ContentPage.Content>
+
+
+        <ListView  x:Name="GroupedView"
     GroupDisplayBinding="{Binding Title}"
     RowHeight="75"
     GroupShortNameBinding="{Binding ShortName}"
-    IsGroupingEnabled="true">
+    IsGroupingEnabled="true"
+    SeparatorVisibility="Default"
+    SeparatorColor="Gray">
 
-      <ListView.ItemTemplate>
-        <DataTemplate>
-          <ImageCell Text="{Binding Name}"
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell Text="{Binding Name}"
             ImageSource="{Binding Icon}"
             Height="75"
             TextColor="Black"
             />
 
-        </DataTemplate>
-      </ListView.ItemTemplate>
-      <ListView.GroupHeaderTemplate>
-        <DataTemplate>
-          <ViewCell>
-            <StackLayout Orientation="Horizontal" Padding="5,5,5,5" BackgroundColor="White">
-               <Label Text="{Binding CategoryTitle}" 
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="5,5,5,5" BackgroundColor="White">
+                            <Label Text="{Binding CategoryTitle}" 
                      TextColor="Black"
                      FontSize="20"
                      FontAttributes="None"
                      VerticalOptions="Center"
                      HorizontalOptions="StartAndExpand"/>
-               
-              <Button Image="a.png"
-                      BorderWidth="0"
+
+                            <!--<Button BackgroundColor="Transparent" ImageSource="https://img.icons8.com/metro/344/chevron-right.png"
+                      MinimumHeightRequest="30"
+                      Clicked="HeaderTapped"
+                      HorizontalOptions="EndAndExpand"
+                      CommandParameter="{Binding .}"/>-->
+
+                            <ImageButton Source="https://img.icons8.com/metro/344/chevron-right.png" BackgroundColor="Transparent"
+                      HeightRequest="20"
                       Clicked="HeaderTapped"
                       HorizontalOptions="EndAndExpand"
                       CommandParameter="{Binding .}"/>
-              
-            </StackLayout>
-          </ViewCell>
-        </DataTemplate>
-      </ListView.GroupHeaderTemplate>
-    </ListView>
-    
-    
-  </ContentPage.Content>
+
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.GroupHeaderTemplate>
+        </ListView>
+
+
+    </ContentPage.Content>
 </ContentPage>
