@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj": {}
+    "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.csproj": {}
   },
   "projects": {
-    "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj": {
+    "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj",
+        "projectUniqueName": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.csproj",
         "projectName": "Teknosa_Clone",
-        "projectPath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj",
-        "packagesPath": "/Users/ruchanyalcin/.nuget/packages/",
-        "outputPath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/",
+        "projectPath": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone.csproj",
+        "packagesPath": "C:\\Users\\Sefa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sefa\\Documents\\GitHub\\Teknosa-Clone\\Teknosa_Clone\\Teknosa_Clone\\Teknosa_Clone\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/ruchanyalcin/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Sefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +69,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
