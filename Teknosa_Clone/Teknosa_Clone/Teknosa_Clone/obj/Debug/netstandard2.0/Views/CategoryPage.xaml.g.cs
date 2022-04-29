@@ -8,33 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-<<<<<<< HEAD
 [assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Teknosa_Clone.Views.CategoryPage.xaml", "Views/CategoryPage.xaml", typeof(global::Teknosa_Clone.Views.CategoryPage))]
-=======
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Teknosa_Clone.Views.CategoryPage.xaml", "Views/CategoryPage.xaml", typeof(global::Teknosa_Clone.Views.Category))]
->>>>>>> main
 
 namespace Teknosa_Clone.Views {
     
     
-<<<<<<< HEAD
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CategoryPage.xaml")]
     public partial class CategoryPage : global::Xamarin.Forms.ContentPage {
-=======
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/CategoryPage.xaml")]
-    public partial class Category : global::Xamarin.Forms.ContentPage {
->>>>>>> main
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView lstProducts;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-<<<<<<< HEAD
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CategoryPage));
-=======
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Category));
->>>>>>> main
             lstProducts = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "lstProducts");
         }
     }

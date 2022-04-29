@@ -1,30 +1,3 @@
-<<<<<<< HEAD
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\bin\Debug\netstandard2.0\Teknosa_Clone.deps.json
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\bin\Debug\netstandard2.0\Teknosa_Clone.dll
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\bin\Debug\netstandard2.0\Teknosa_Clone.pdb
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Teknosa_Clone.csproj.AssemblyReference.cache
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Teknosa_Clone.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Teknosa_Clone.AssemblyInfoInputs.cache
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Teknosa_Clone.AssemblyInfo.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Teknosa_Clone.csproj.CoreCompileInputs.cache
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Teknosa_Clone.dll
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\refint\Teknosa_Clone.dll
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Teknosa_Clone.pdb
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\ref\Teknosa_Clone.dll
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\CategoriesPage.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\AccountPage.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\CategoryPage2.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\SearchPage.xaml.g.cs
-C:\Users\Sefa\Documents\GitHub\Teknosa-Clone\Teknosa_Clone\Teknosa_Clone\Teknosa_Clone\obj\Debug\netstandard2.0\Views\ShoppingCartPage.xaml.g.cs
-=======
 C:/Users/Sefa/Documents/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/bin/Debug/netstandard2.0/Teknosa_Clone.deps.json
 C:/Users/Sefa/Documents/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/bin/Debug/netstandard2.0/Teknosa_Clone.dll
 C:/Users/Sefa/Documents/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/bin/Debug/netstandard2.0/Teknosa_Clone.pdb
@@ -67,4 +40,3 @@ C:/Users/Sefa/Documents/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.dll
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/ref/Teknosa_Clone.dll
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.pdb
->>>>>>> main

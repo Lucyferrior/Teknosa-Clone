@@ -5,15 +5,6 @@ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 x:Class="Teknosa_Clone.Views.AccountPage"
 Title="XamarinForms ListView Example">
 
-<<<<<<< HEAD
-    <ContentPage.Content>
-        <Grid>
-
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Margin="0,0,0,470" BackgroundColor="Black">
-                <Image Source="https://img.icons8.com/emoji/344/orange-circle-emoji.png"
-               ></Image>
-                <Label Text="Ruchan Yalçın"  TextColor="White"
-=======
 <ContentPage.Content>
 <Grid>
 
@@ -21,54 +12,11 @@ Title="XamarinForms ListView Example">
         <Image Source="https://img.icons8.com/emoji/344/orange-circle-emoji.png"
                ></Image>
         <Label Text="Ruchan Yalçın"  TextColor="White"
->>>>>>> main
                HeightRequest="150" WidthRequest="500"
              FontSize="20"
                HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="0,0,30,10"></Label>
 
 
-<<<<<<< HEAD
-            </StackLayout>
-
-            <StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand"  Margin="0,75,0,0">
-
-
-
-
-                <ListView x:Name="lstProducts" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"
-        SeparatorColor="Gray" SeparatorVisibility="Default" HasUnevenRows="True"
-        ItemTapped="TapGestureRecognizer_Tapped">
-
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Orientation="Horizontal" Margin="5" VerticalOptions="FillAndExpand" MinimumHeightRequest="60">
-
-                                    <Image Source="{Binding productImage}" WidthRequest="30" HeightRequest="30"/>
-
-                                    <StackLayout Orientation="Vertical" Padding="2" VerticalOptions="Center">
-                                        <Label Text="{Binding productName}" FontSize="12" Margin="2" TextColor="Black" FontAttributes="Bold">
-
-                                        </Label>
-
-                                    </StackLayout>
-
-                                    <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="EndAndExpand">
-                                        <Image   HeightRequest="30" WidthRequest="30" Source="https://img.icons8.com/ios-filled/344/chevron-right.png"/>
-                                    </StackLayout>
-
-                                </StackLayout>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-
-            </StackLayout>
-        </Grid>
-    </ContentPage.Content>
-</ContentPage>
-
-=======
     </StackLayout>
 
 <StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand"  Margin="0,75,0,0">
@@ -108,4 +56,3 @@ Title="XamarinForms ListView Example">
     </Grid>
     </ContentPage.Content>
 </ContentPage>
->>>>>>> main

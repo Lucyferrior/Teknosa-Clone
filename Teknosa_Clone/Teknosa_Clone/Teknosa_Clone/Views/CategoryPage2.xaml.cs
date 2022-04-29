@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Teknosa_Clone.Models;
-
 namespace Teknosa_Clone.Views
 {
     public partial class CategoryPage2 : ContentPage
