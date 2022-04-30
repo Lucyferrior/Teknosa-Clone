@@ -107,9 +107,9 @@
                         <Button Text="Şimdi Ara" BackgroundColor="{StaticResource Primary}" TextColor="White"
                                 HorizontalOptions="Start"/>
                     </StackLayout>
-                    <Frame WidthRequest="200" Padding="0" Margin="0" BackgroundColor="Transparent">
-                        <Image Source="cagrimerkez.jpg" VerticalOptions="Fill"/>
-                    </Frame>
+                    <StackLayout WidthRequest="200" Padding="0" Margin="0" BackgroundColor="Transparent">
+                        <Image Source="cagrimerkez.png" VerticalOptions="FillAndExpand"/>
+                    </StackLayout>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
