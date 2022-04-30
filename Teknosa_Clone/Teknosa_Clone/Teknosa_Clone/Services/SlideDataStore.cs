@@ -11,7 +11,7 @@ namespace Teknosa_Clone.Services
         public Collection<Slide> slideCollection;
         public SlideDataStore()
         {
-            
+
             slideCollection = new Collection<Slide>
             {
                 new Slide
@@ -20,7 +20,7 @@ namespace Teknosa_Clone.Services
                     Name = "slideRamazan",
                     Title = "Ramazan Ayına Özel Seçtik",
                     Description = "Bu akşam, İhtiyacınız olan Ürünleri inceleme vakti",
-                    ImageSource= ImageSource.FromFile("ramazan.webp")
+                    ImageSource= ImageSource.FromFile("ramazan.png")
                 },
                 new Slide
                 {
@@ -28,7 +28,7 @@ namespace Teknosa_Clone.Services
                     Name = "slideAnneler",
                     Title = "Anneler Günü Fırsatlaro Teknosa'da",
                     Description = "Tüm Anneler İçin Hediyeler",
-                    ImageSource= ImageSource.FromUri(new Uri("https://lh3.googleusercontent.com/cooO04i5VN8zf7O-NeIqJ1GHHRtc06fjq6Wr0dCJao__oloD0yaqoGYRY3dx58Z3oGlgziY4S3UzUv4ivCUa=w1920-h955"))
+                    ImageSource= ImageSource.FromFile("anneler.png")
                 },
                 new Slide
                 {
@@ -36,7 +36,7 @@ namespace Teknosa_Clone.Services
                     Name = "galaxyASlide",
                     Title = "Yeni Galaxy A serisi ile tanışın.",
                     Description = "",
-                    ImageSource= ImageSource.FromFile("galaxya.webp")
+                    ImageSource= ImageSource.FromFile("galaxya.png")
                 },
                 new Slide
                 {
@@ -44,7 +44,7 @@ namespace Teknosa_Clone.Services
                     Name = "xiomiSlide",
                     Title = "Sepette Xiomi Akıllı Bluetooth Tartı Hediye",
                     Description = "Xiomi Mi Mop Pro 2 Robot Süpürge Alımında",
-                    ImageSource= ImageSource.FromFile("xiomi.webp")
+                    ImageSource= ImageSource.FromFile("xiomi.png")
                 },
                 new Slide
                 {
@@ -52,7 +52,7 @@ namespace Teknosa_Clone.Services
                     Name = "hediyeSlide",
                     Title = "1 Yıllık Teknoloji Destek Paketi Sepette Hediye",
                     Description = "Seçili Robot Süpürgeler ile birlikte",
-                    ImageSource= ImageSource.FromFile("robotsupurge.webp")
+                    ImageSource= ImageSource.FromFile("robotsupurge.png")
                 },
                 new Slide
                 {
@@ -60,7 +60,7 @@ namespace Teknosa_Clone.Services
                     Name = "dellSlide",
                     Title = "Sınırları Kaldır, Güvende Kal",
                     Description = "TPM Özelliği ve 2 Yıl Yerinde Servis Garantisi ile",
-                    ImageSource= ImageSource.FromFile("dell.webp")
+                    ImageSource= ImageSource.FromFile("dell.png")
                 },
                 new Slide
                 {
@@ -68,7 +68,7 @@ namespace Teknosa_Clone.Services
                     Name = "intelSlide",
                     Title = "Haftanın Ürünü",
                     Description = "İntel Core İşlemcili Yüksek Performanslı Bilgisayar Teknosa'da",
-                    ImageSource= ImageSource.FromFile("intel.webp")
+                    ImageSource= ImageSource.FromFile("intel.png")
                 },
             };
         }
