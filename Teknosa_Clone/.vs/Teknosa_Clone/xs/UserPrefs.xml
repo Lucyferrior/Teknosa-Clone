@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{5FA60943-5D61-4C5C-B0C0-FBE6DAAD33DC}|Default">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/Views/ShoppingCartPage.xaml">
     <Files>
@@ -17,10 +18,16 @@
       <File FileName="Teknosa_Clone/Teknosa_Clone/Views/AccountPage.xaml" Line="1" Column="1" />
       <File FileName="../../../../../usr/local/share/dotnet/sdk/6.0.202/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="267" Column="5" />
 >>>>>>> Stashed changes
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/AppShell.xaml">
+    <Files>
+      <File FileName="Teknosa_Clone/Teknosa_Clone/AppShell.xaml" Line="1" Column="1" />
+>>>>>>> main
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
           <Node name="Teknosa_Clone" expanded="True">
             <Node name="Teknosa_Clone" expanded="True">
@@ -45,4 +52,30 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3.3" />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_r_11_0_-_api_30" />
+=======
+          <Node name="Teknosa_Clone" expanded="True">
+            <Node name="Teknosa_Clone" expanded="True">
+              <Node name="Teknosa_Clone" expanded="True">
+                <Node name="Teknosa_Clone" expanded="True">
+                  <Node name="Views" expanded="True">
+                    <Node name="MainPage.xaml.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3.3" />
+  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.pixel_2_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+>>>>>>> main
 </Properties>

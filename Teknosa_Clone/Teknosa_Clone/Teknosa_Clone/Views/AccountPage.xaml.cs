@@ -44,7 +44,11 @@ namespace Teknosa_Clone.Views
             });
 
 
+<<<<<<< HEAD
                          obProducts.Add(new Products
+=======
+            obProducts.Add(new Products
+>>>>>>> main
             {
                 productName = "Favorilerim",
                 productImage = "https://img.icons8.com/ios/344/bookmark-ribbon--v1.png"

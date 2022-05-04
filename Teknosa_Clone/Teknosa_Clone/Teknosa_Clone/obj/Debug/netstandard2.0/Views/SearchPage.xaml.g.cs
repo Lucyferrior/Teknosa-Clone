@@ -13,7 +13,11 @@
 namespace Teknosa_Clone.Views {
     
     
+<<<<<<< HEAD
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/SearchPage.xaml")]
+=======
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SearchPage.xaml")]
+>>>>>>> main
     public partial class SearchPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

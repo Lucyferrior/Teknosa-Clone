@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "c+BRbO1ZGx/7/8C8XlJB9H0qOqHXrnov/hY+wG9EQ1WsvokhreN4lRuFkWwZ2CGCRXL4xzS+RasEUcws9PU/Ig==",
+=======
+  "dgSpecHash": "PzhHEyKiIqFp/xBG1leLu+08Dgmzh9K1qZSiIW5vbe59RqDy4AAYMBMyvM6oDV+KL/i4nRhEh6z/quv9UW2l+g==",
+>>>>>>> main
   "success": true,
   "projectFilePath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.csproj",
   "expectedPackageFiles": [

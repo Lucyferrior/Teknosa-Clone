@@ -1404,11 +1404,15 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	.asciz	"d25b5bfc-5ee2-48d7-8979-69d88ddcb8c9"
 =======
 	.asciz	"613b510e-d436-4c17-92e0-e2f51d52f02a"
 >>>>>>> Stashed changes
+=======
+	.asciz	"06962c1c-9392-41bd-8ac1-d75dc1fa72ad"
+>>>>>>> main
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object

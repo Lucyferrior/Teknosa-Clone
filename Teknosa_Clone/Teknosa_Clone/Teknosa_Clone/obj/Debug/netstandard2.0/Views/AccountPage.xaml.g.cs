@@ -13,7 +13,11 @@
 namespace Teknosa_Clone.Views {
     
     
+<<<<<<< HEAD
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/AccountPage.xaml")]
+=======
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AccountPage.xaml")]
+>>>>>>> main
     public partial class AccountPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

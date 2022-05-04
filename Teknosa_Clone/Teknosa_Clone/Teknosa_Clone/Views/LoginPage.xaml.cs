@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,26 @@ namespace Teknosa_Clone.Views
         {
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
+        }
+        public void onTapped(object sender, EventArgs e)
+        {
+            StackLayout senderStack = sender as StackLayout;
+            StackLayout stackLayout = senderStack.Parent as StackLayout;
+            StackLayout processLayout = stackLayout.Children[1] as StackLayout;
+
+            processLayout.IsVisible = processLayout.IsVisible ? false : true;
+
+            Trace.WriteLine(senderStack + " " + nameof(stackLayout));
+            
+            if(girisStack == processLayout)
+            {
+                kayitStack.IsVisible = false;
+            }
+            if(kayitStack == processLayout)
+            {
+                girisStack.IsVisible = false;
+            }
+
         }
     }
 }

@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 AdbTarget=-s emulator-5554
+=======
+AdbTarget=-s abb40f2c
+>>>>>>> main
 AdbOptions=

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Teknosa_Clone.Views.MainPage"
+             xmlns:model="clr-namespace:Teknosa_Clone.Models"
+             xmlns:vm="clr-namespace:Teknosa_Clone.Views"
+             xmlns:local="clr-namespace:Teknosa_Clone.ViewModels" >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="icon_profile.png" Command="{Binding LoginCommand}" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--arama -->
+                <StackLayout
+                BackgroundColor="LightGray"
+                HorizontalOptions="Fill"
+                VerticalOptions="Start"
+                Padding="20, 10"
+                Margin="0"
+                Orientation="Horizontal">
+                    <Image Source="search.png"
+                       WidthRequest="17"
+                       VerticalOptions="Center"/>
+                    <Label Text="Ürün, kategori veya marka ara"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       TextColor="Black"
+                       Padding="0"
+                       Margin="0"/>
+
+                </StackLayout>
+                <!--kategori  -->
+                <ScrollView
+                Orientation="Vertical"
+                HorizontalScrollBarVisibility="Never"
+                VerticalScrollBarVisibility="Never"
+                HorizontalOptions="FillAndExpand">
+                    <CollectionView ItemsSource="{Binding categoriesBinding}"
+                                ItemsLayout="HorizontalList"
+                                HeightRequest="170">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <StackLayout Margin= "10, 0"
+                                             WidthRequest="80">
+                                        <Frame CornerRadius="20"
+                                           Padding="10"
+                                           Margin="0"
+                                           BackgroundColor="LightGray">
+                                            <Image Source="{Binding ImageSource}"
+                                               HorizontalOptions="Center"
+                                               HeightRequest="60"
+                                               Margin="0"/>
+                                        </Frame>
+                                        <Label Text="{Binding Text}"
+                                           TextColor="Black"
+                                           HorizontalTextAlignment="Center"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </ScrollView>
+                <!--slayt -->
+                
+                <CarouselView ItemsSource="{Binding slidesBinding}" Margin="0,0,10,0" HeightRequest="370">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout BackgroundColor="#55526A">
+                                <Image Source="{Binding ImageSource}" Margin="0,0,10,0" VerticalOptions="FillAndExpand"/>
+                                <StackLayout Padding="20,10">
+                                    <Label Text="{Binding Description}" TextColor="White" FontSize="Subtitle"/>
+                                    <Label Text="{Binding Title}" TextColor="White" FontSize="Title"/>
+                                    <Button Text="İncele" TextColor="White" BorderColor="White" BorderWidth="1" TextTransform="None"
+                                            BackgroundColor="Transparent" 
+                                            CornerRadius="50" Margin="0,20"
+                                            HorizontalOptions="Start"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+
+                <ScrollView Orientation="Horizontal" VerticalScrollBarVisibility="Never"
+                            HorizontalScrollBarVisibility="Never">
+                    <StackLayout x:Name="butonlar" Orientation="Horizontal">
+                        <StackLayout.Resources>
+                            <Style TargetType="Button">
+                                <Setter Property="TextColor" Value="Black"/>
+                                <Setter Property="CornerRadius" Value="50"/>
+                                <Setter Property="FontSize" Value="Micro"/>
+                            </Style>
+                        </StackLayout.Resources>
+                        <Button Text="En Yeniler" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+                        <Button Text="Yılın Çok Satanları" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+                        <Button Text="İlginizi Çekebilecek Ürünler" BackgroundColor="Transparent" Clicked="Button_Clicked" />
+                        <Button Text="Bugün Öne Çıkanlar" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+                    </StackLayout>
+                </ScrollView>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#0e083e">
+                    <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" Padding="10">
+                        <Label Text="Telefonla Satış Hizmetiyle Hızlı ve Güvenli Alışveriş!" TextColor="White" FontSize="Medium"/>
+                        <Label Text="Dilediğiniz ürünü satış temsilcimiz yardımıyla satın almak için hemen arayın."
+                               FontSize="Small" TextColor="White"/>
+                        <Button Text="Şimdi Ara" BackgroundColor="{StaticResource Primary}" TextColor="White"
+                                HorizontalOptions="Start"/>
+                    </StackLayout>
+                    <StackLayout WidthRequest="200" Padding="0" Margin="0" BackgroundColor="Transparent">
+                        <Image Source="cagrimerkez.png" VerticalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

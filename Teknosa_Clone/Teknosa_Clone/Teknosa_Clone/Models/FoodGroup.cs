@@ -62,9 +62,18 @@ namespace Teknosa_Clone.Models
                     new Food { Name = "Masaüstü ve Telsiz Telefon", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/780450001/780450001_0_MC/5cb9da7ee14e43cab8929213e128cd08.jpg" },
                     new Food { Name = "Telefon Aksesuar", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/145059446/145059446_1_MC/34372092.jpg" },
 
+<<<<<<< HEAD
                 }
                 
                 };
+=======
+                },
+                new FoodGroup("Bilgisayar ve Tablet"){
+                    new Food { Name = "Laptop, Notebook", },
+                    new Food { Name = "Masaüstü Bilgisayar", },
+                    new Food { Name = "pear", },
+                }};
+>>>>>>> main
             All = Groups;
         }
 
@@ -77,4 +86,8 @@ namespace Teknosa_Clone.Models
 
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

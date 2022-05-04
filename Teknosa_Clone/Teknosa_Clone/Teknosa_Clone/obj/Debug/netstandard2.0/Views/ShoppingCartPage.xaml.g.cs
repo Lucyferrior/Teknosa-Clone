@@ -13,8 +13,18 @@
 namespace Teknosa_Clone.Views {
     
     
+<<<<<<< HEAD
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ShoppingCartPage.xaml")]
     public partial class ShoppingCartPage : global::Xamarin.Forms.ContentPage {
+=======
+<<<<<<<< HEAD:Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/ShoppingCartPage.xaml.g.cs
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ShoppingCartPage.xaml")]
+    public partial class ShoppingCartPage : global::Xamarin.Forms.ContentPage {
+========
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/AboutPage.xaml")]
+    public partial class AboutPage : global::Xamarin.Forms.ContentPage {
+>>>>>>>> main:Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+>>>>>>> main
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {

@@ -6,7 +6,11 @@
     Shell.BackgroundColor="DarkOrange"
     Shell.NavBarIsVisible="False">
 
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> main
     <ContentPage.Content>
         <Grid BackgroundColor="DarkOrange">
             <StackLayout VerticalOptions="StartAndExpand" Orientation="Horizontal" Margin="10,5,20,0">
@@ -28,12 +32,17 @@
                         BorderWidth="0.5" CornerRadius="50"
                         Margin="0,0,0,0"></Button>
 
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> main
             </StackLayout>
 
             <StackLayout VerticalOptions="End">
 
                 <Image Source="https://www.firmaurfa.com/wp-content/uploads/2017/01/teknosa-logo.jpg" HeightRequest="40">
+<<<<<<< HEAD
              
                 </Image>
             </StackLayout>
@@ -41,6 +50,15 @@
 
         </Grid>
         
+=======
+
+                </Image>
+            </StackLayout>
+
+
+        </Grid>
+
+>>>>>>> main
     </ContentPage.Content>
 </ContentPage>
 

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "7uYGRT2tp+E54yiwQEJO/NNAQ31b97+fw0nwCyDZ9A+B72YcYuT0KcW7yjDPdEwvRqMhf57DxaYsu01zH10oTQ==",
+=======
+  "dgSpecHash": "AxnoJ0rjnoHJ+qzTCxrzQesfgrCYgh2kwwdR0ldGb8Kb0WXk0w+cuMeNyuZZRWCSZN7Bp4WHo6J21JQeVPxFlw==",
+>>>>>>> main
   "success": true,
   "projectFilePath": "/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone.Android/Teknosa_Clone.Android.csproj",
   "expectedPackageFiles": [
