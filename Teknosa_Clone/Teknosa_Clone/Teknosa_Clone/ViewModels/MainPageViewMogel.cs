@@ -10,8 +10,11 @@ using Teknosa_Clone.Models;
 
 namespace Teknosa_Clone.ViewModels
 {
-    public class MainPageViewModel : ContentPage
+    public class MainPageViewModel : NavigationPage
     {
+        public ICommand LoginCommand { get; }
+        public ICommand SearchCommand { get; }
+
         public Collection<Category> categoriesBinding { get; set; }
         public Collection<Slide> slidesBinding { get; set; }
         CategoryDataStore categoryStore = new CategoryDataStore();
@@ -19,14 +22,17 @@ namespace Teknosa_Clone.ViewModels
         public MainPageViewModel()
         {
             LoginCommand = new Command(OnLoginClicked);
-
+            SearchCommand = new Command(OnSearchClicked);
             categoriesBinding = categoryStore.categoryCollection;
             slidesBinding = slideStore.slideCollection;
         }
-        public ICommand LoginCommand { get; }
         private async void OnLoginClicked(object obj)
         {
-            await Shell.Current.Navigation.PushAsync(new LoginPage());
+            await Shell.Current.Navigation.PushAsync(new LoginPage(),true);
+        }
+        private async void OnSearchClicked (object obj)
+        {
+            await Shell.Current.Navigation.PushAsync (new SearchPage(),true);
         }
     }
 }
