@@ -20,6 +20,9 @@
                 Padding="20, 10"
                 Margin="0"
                 Orientation="Horizontal">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding SearchCommand}"/>
+                    </StackLayout.GestureRecognizers>
                     <Image Source="search.png"
                        WidthRequest="17"
                        VerticalOptions="Center"/>

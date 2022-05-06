@@ -6,12 +6,12 @@
 
 
         <ListView  x:Name="GroupedView"
-    GroupDisplayBinding="{Binding Title}"
-    RowHeight="75"
-    GroupShortNameBinding="{Binding ShortName}"
-    IsGroupingEnabled="true"
-    SeparatorVisibility="Default"
-    SeparatorColor="Gray">
+            GroupDisplayBinding="{Binding Title}"
+            RowHeight="75"
+            GroupShortNameBinding="{Binding ShortName}"
+            IsGroupingEnabled="true"
+            SeparatorVisibility="Default"
+            SeparatorColor="Gray">
 
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -28,11 +28,11 @@
                     <ViewCell>
                         <StackLayout Orientation="Horizontal" Padding="5,5,5,5" BackgroundColor="White">
                             <Label Text="{Binding CategoryTitle}" 
-                     TextColor="Black"
-                     FontSize="20"
-                     FontAttributes="None"
-                     VerticalOptions="Center"
-                     HorizontalOptions="StartAndExpand"/>
+                                 TextColor="Black"
+                                 FontSize="20"
+                                 FontAttributes="None"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="StartAndExpand"/>
 
                             <!--<Button BackgroundColor="Transparent" ImageSource="https://img.icons8.com/metro/344/chevron-right.png"
                       MinimumHeightRequest="30"
@@ -41,10 +41,10 @@
                       CommandParameter="{Binding .}"/>-->
 
                             <ImageButton Source="https://img.icons8.com/metro/344/chevron-right.png" BackgroundColor="Transparent"
-                      HeightRequest="20"
-                      Clicked="HeaderTapped"
-                      HorizontalOptions="EndAndExpand"
-                      CommandParameter="{Binding .}"/>
+                                  HeightRequest="20"
+                                  Clicked="HeaderTapped"
+                                  HorizontalOptions="EndAndExpand"
+                                  CommandParameter="{Binding .}"/>
 
 
                         </StackLayout>

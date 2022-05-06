@@ -3,20 +3,123 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"    
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
              mc:Ignorable="d" x:Class="Teknosa_Clone.Views.SearchPage"
+             xmlns:local="clr-namespace:Teknosa_Clone.ViewModels"
+             
              Shell.NavBarIsVisible="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout
+                BackgroundColor="LightGray"
+                HorizontalOptions="Fill"
+                VerticalOptions="Start"
+                Padding="20, 5"
+                Margin="0"
+                Orientation="Horizontal">
+                <Frame VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+                   Margin="0" Padding="0" 
+                   BackgroundColor="Transparent">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding BackCommand}"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="&lt;"
+                           VerticalOptions="Fill"
+                           HorizontalOptions="Start"
+                           Margin="0" Padding="0"
+                           FontSize="Title"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"
+                           TextColor="Black"
+                               />
+                        <Entry Placeholder="Ürün, kategori veya marka ara"
+                               PlaceholderColor="Gray"
+                               TextColor="Black"
+                               Margin="0" 
+                               IsSpellCheckEnabled="False"
+                               IsTextPredictionEnabled="False"
+                               VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"
+                               />
+                    </StackLayout>
+                </Frame>
 
+                <Image Source="search.png"
+                       WidthRequest="17"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout x:Name="barkodImage" IsVisible="false">
+                <ImageButton 
+                        Source="https://www.iconsdb.com/icons/preview/orange/barcode-xxl.png" 
+                         HeightRequest="70"
+                         Margin="0,20,0,0"
+                         CornerRadius="100"
+                         Padding="10"
+                         BackgroundColor="#F9E3D1"
+                         HorizontalOptions="Center"/>
+
+                <Label Text="Barkod Okut"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   Margin="0"
+                   Padding="0"
+                   />
+            </StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="En İyi Eşleşmeler (1)"
+                           Margin="15"
+                           TextColor="Black"
+                           FontAttributes="Bold"
+                           FontSize="Medium"/>
+                        <StackLayout Orientation="Horizontal" 
+                                 Margin="0,0,20,0"
+                                 HorizontalOptions="EndAndExpand"
+                                 VerticalOptions="Center">
+                            <Label Text="Tümünü Gör"/>
+                            <Label Text=">"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <CollectionView ItemsSource="{Binding urunler}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame BorderColor="Transparent" BackgroundColor="Transparent" >
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image HeightRequest="70" Source="{Binding imageSource}"/>
+
+                                        <Label TextColor="Black">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="{Binding mark}" FontAttributes="Bold"/>
+                                                    <Span Text=" "/>
+                                                    <Span Text="{Binding description}" />
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        
+                                        <Label TextColor="Black">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="{Binding cost}"/>
+                                                    <Span Text=" TL" />
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+                
+            </ScrollView>
+            
+        </StackLayout>
+
+    </ContentPage.Content>
     
-     
-    <StackLayout  >
-        <Entry x:Name="SearchEntry" Placeholder="Ürün, kategori veya marka ara" />
-    <ImageButton Source="https://www.iconsdb.com/icons/preview/orange/barcode-xxl.png" CornerRadius="180"
-                 Scale="0.7" HorizontalOptions="Center"></ImageButton>
-    <Label Text="Barkod Okut" Margin="0,0,0,0" HorizontalOptions="Center"></Label>
-
-    <Label Text="Popüler Aramalar" TextColor="Black" VerticalTextAlignment="Start" HorizontalTextAlignment="Start"
-           HorizontalOptions="Start"
-           Margin="10,20,0,5" FontFamily="Times"></Label>
-    </StackLayout>
     
 </ContentPage>
 
