@@ -8,15 +8,15 @@ using Xamarin.Forms;
 using Teknosa_Clone.Models;
 namespace Teknosa_Clone.Views
 {
-    public partial class CategoryPage2 : ContentPage
+    public partial class CategoryPage3 : ContentPage
     {
         private ObservableCollection<FoodGroup> _allGroups;
         private ObservableCollection<FoodGroup> _expandedGroups;
 
-        public CategoryPage2()
+        public CategoryPage3()
         {
             InitializeComponent();
-            _allGroups = FoodGroup.All;
+            _allGroups = FoodGroup.All2;
             UpdateListContent();
         }
 
@@ -48,9 +48,5 @@ namespace Teknosa_Clone.Views
             GroupedView.ItemsSource = _expandedGroups;
         }
 
-        async void GroupedView_ItemTapped(System.Object sender, Xamarin.Forms.ItemTappedEventArgs e)
-        {
-            await Navigation.PushAsync(new ProductsPage());
-        }
     }
 }

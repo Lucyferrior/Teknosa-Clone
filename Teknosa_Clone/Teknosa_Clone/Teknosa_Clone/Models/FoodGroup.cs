@@ -51,6 +51,10 @@ namespace Teknosa_Clone.Models
         }
 
         public static ObservableCollection<FoodGroup> All { private set; get; }
+        public static ObservableCollection<FoodGroup> All2 { private set; get; }
+        public static ObservableCollection<FoodGroup> All3 { private set; get; }
+
+
 
         static FoodGroup()
         {
@@ -69,6 +73,28 @@ namespace Teknosa_Clone.Models
                     new Food { Name = "pear", },
                 }};
             All = Groups;
+
+            ObservableCollection<FoodGroup> Groups2 = new ObservableCollection<FoodGroup>{
+                new FoodGroup("Laptop, Notebook"){
+                },
+
+                new FoodGroup("Masaüstü Bilgisayar"){
+                    new Food { Name = "Laptop, Notebook", },
+                    new Food { Name = "Masaüstü Bilgisayar", },
+                    new Food { Name = "pear", },
+                }};
+            All2 = Groups2;
+
+            ObservableCollection<FoodGroup> Groups3 = new ObservableCollection<FoodGroup>{
+                new FoodGroup("Televizyon"){
+                },
+
+                new FoodGroup("Görüntü Sistemleri"){
+                    new Food { Name = "Laptop, Notebook", },
+                    new Food { Name = "Masaüstü Bilgisayar", },
+                    new Food { Name = "pear", },
+                }};
+            All3 = Groups3;
         }
 
 

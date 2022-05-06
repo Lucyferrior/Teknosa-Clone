@@ -8,15 +8,70 @@ using Xamarin.Forms;
 using Teknosa_Clone.Models;
 namespace Teknosa_Clone.Views
 {
-    public partial class CategoryPage2 : ContentPage
+    public partial class CategoryPage4 : ContentPage
     {
         private ObservableCollection<FoodGroup> _allGroups;
         private ObservableCollection<FoodGroup> _expandedGroups;
 
-        public CategoryPage2()
+        public CategoryPage4(int page)
         {
+            int Page = page;
             InitializeComponent();
-            _allGroups = FoodGroup.All;
+            if ( Page == 1)
+            {
+                _allGroups = FoodGroup.All;
+
+            }
+            if (Page == 2)
+            {
+                _allGroups = FoodGroup.All2;
+
+            }
+            if (Page == 3)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
+            if (Page == 4)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
+            if (Page == 5)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
+            if (Page == 6)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
+            if (Page == 7)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
+            if (Page == 8)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
+            if (Page == 9)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
+            if (Page == 10)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
+            if (Page == 11)
+            {
+                _allGroups = FoodGroup.All3;
+
+            }
             UpdateListContent();
         }
 

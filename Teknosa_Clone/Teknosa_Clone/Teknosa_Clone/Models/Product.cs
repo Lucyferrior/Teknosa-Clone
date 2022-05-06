@@ -5,6 +5,7 @@ namespace Teknosa_Clone.Models
     {
         public string productName { get; set; }
         public string productImage { get; set; }
+        public int    productId { get; set; }
 
     }
 }

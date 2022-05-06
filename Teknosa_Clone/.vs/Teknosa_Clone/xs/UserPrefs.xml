@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{5FA60943-5D61-4C5C-B0C0-FBE6DAAD33DC}|Default">
   <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.pixel_2_r_11_0_-_api_30" />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_r_11_0_-_api_30" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/Views/ProductPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/Views/CategoryPage.xaml.cs">
     <Files>
       <File FileName="Teknosa_Clone/Teknosa_Clone/Views/CategoryPage.xaml" Line="1" Column="1" />
       <File FileName="Teknosa_Clone/Teknosa_Clone/Views/CategoryPage.xaml.cs" Line="103" Column="8" />
@@ -29,7 +29,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3.3" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

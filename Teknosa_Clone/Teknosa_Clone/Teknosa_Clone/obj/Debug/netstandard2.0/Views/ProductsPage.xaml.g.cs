@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Teknosa_Clone.Views.ProductPage.xaml", "Views/ProductPage.xaml", typeof(global::Teknosa_Clone.Views.ProductPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Teknosa_Clone.Views.ProductsPage.xaml", "Views/ProductsPage.xaml", typeof(global::Teknosa_Clone.Views.ProductsPage))]
 
 namespace Teknosa_Clone.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ProductPage.xaml")]
-    public partial class ProductPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ProductsPage.xaml")]
+    public partial class ProductsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ProductPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ProductsPage));
         }
     }
 }
