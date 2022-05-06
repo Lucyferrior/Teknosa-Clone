@@ -14,7 +14,8 @@
                 <ImageButton Source="https://img.icons8.com/ios-filled/344/ffffff/x.png"
                              BackgroundColor="Transparent"
                              HeightRequest="13"
-                             HorizontalOptions="EndAndExpand"></ImageButton>
+                             HorizontalOptions="EndAndExpand"
+                             Clicked="ImageButton_Clicked"></ImageButton>
 
             </StackLayout>
             <StackLayout VerticalOptions="Center" Orientation="Vertical" HorizontalOptions="Center">
