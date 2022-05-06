@@ -111,20 +111,6 @@ namespace Teknosa_Clone.Views
             var selectedProduct = (Products)e.Item;
 
             await Navigation.PushAsync(new CategoryPage4(selectedProduct.productId));
-
-       
-            //if (selectedProduct.productName == "Telefon")
-            //{
-            //    await Navigation.PushAsync(new CategoryPage2());
-
-            //}
-
-            //if (selectedProduct.productName == "Bilgisayar ve Tablet")
-            //{
-            //    await Navigation.PushAsync(new CategoryPage3());
-
-            //}
-
         }
     }
 }
