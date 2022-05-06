@@ -12,10 +12,10 @@ namespace Teknosa_Clone.Models
 
     public class FoodGroup : ObservableCollection<Food>, INotifyPropertyChanged
     {
-
         private bool _expanded;
 
         public string Title { get; set; }
+        public ImageSource Image1 { get; set; }
 
         public string CategoryTitle
         {
@@ -39,15 +39,16 @@ namespace Teknosa_Clone.Models
 
         public string StateIcon
         {
-            get { return Expanded ? "a.png" : "b.png"; }
+            get { return Expanded ? "https://img.icons8.com/ios/344/chevron--v1.png" : "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/344/external-Chevron-arrows-tanah-basah-glyph-tanah-basah-3.png"; }
         }
 
 
 
-        public FoodGroup(string title, bool expanded = true)
+        public FoodGroup(string title, ImageSource image,bool expanded = true)
         {
             Title = title;
             Expanded = expanded;
+            Image1 = image;
         }
 
         public static ObservableCollection<FoodGroup> All { private set; get; }
@@ -59,7 +60,7 @@ namespace Teknosa_Clone.Models
         static FoodGroup()
         {
             ObservableCollection<FoodGroup> Groups = new ObservableCollection<FoodGroup>{
-                new FoodGroup("Telefon"){
+                new FoodGroup("Telefon", "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/125078519/125078519_1_MC/61250704.jpg"){
                     new Food { Name = "Cep Telefonu", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/125078519/125078519_1_MC/61250704.jpg" },
                     new Food { Name = "Giyilebilir Teknoloji", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/780152467/780152467_0_MC/43140919.jpg" },
                     new Food { Name = "Kulaklık", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/110263107/110263107_0_MC/1234.jpg" },
@@ -67,34 +68,31 @@ namespace Teknosa_Clone.Models
                     new Food { Name = "Telefon Aksesuar", Icon="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/145059446/145059446_1_MC/34372092.jpg" },
 
                 },
-                new FoodGroup("Bilgisayar ve Tablet"){
-                    new Food { Name = "Laptop, Notebook", },
-                    new Food { Name = "Masaüstü Bilgisayar", },
-                    new Food { Name = "pear", },
-                }};
+
+            };
             All = Groups;
 
-            ObservableCollection<FoodGroup> Groups2 = new ObservableCollection<FoodGroup>{
-                new FoodGroup("Laptop, Notebook"){
-                },
+            //ObservableCollection<FoodGroup> Groups2 = new ObservableCollection<FoodGroup>{
+            //    new FoodGroup("Laptop, Notebook"){
+            //    },
 
-                new FoodGroup("Masaüstü Bilgisayar"){
-                    new Food { Name = "Laptop, Notebook", },
-                    new Food { Name = "Masaüstü Bilgisayar", },
-                    new Food { Name = "pear", },
-                }};
-            All2 = Groups2;
+            //    new FoodGroup("Masaüstü Bilgisayar"){
+            //        new Food { Name = "Laptop, Notebook", },
+            //        new Food { Name = "Masaüstü Bilgisayar", },
+            //        new Food { Name = "pear", },
+            //    }};
+            //All2 = Groups2;
 
-            ObservableCollection<FoodGroup> Groups3 = new ObservableCollection<FoodGroup>{
-                new FoodGroup("Televizyon"){
-                },
+            //ObservableCollection<FoodGroup> Groups3 = new ObservableCollection<FoodGroup>{
+            //    new FoodGroup("Televizyon"){
+            //    },
 
-                new FoodGroup("Görüntü Sistemleri"){
-                    new Food { Name = "Laptop, Notebook", },
-                    new Food { Name = "Masaüstü Bilgisayar", },
-                    new Food { Name = "pear", },
-                }};
-            All3 = Groups3;
+            //    new FoodGroup("Görüntü Sistemleri"){
+            //        new Food { Name = "Laptop, Notebook", },
+            //        new Food { Name = "Masaüstü Bilgisayar", },
+            //        new Food { Name = "pear", },
+            //    }};
+            //All3 = Groups3;
         }
 
 

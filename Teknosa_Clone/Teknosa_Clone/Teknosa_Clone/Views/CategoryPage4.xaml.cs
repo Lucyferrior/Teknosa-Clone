@@ -89,7 +89,7 @@ namespace Teknosa_Clone.Views
             foreach (FoodGroup group in _allGroups)
             {
                 //Create new FoodGroups so we do not alter original list
-                FoodGroup newGroup = new FoodGroup(group.Title, group.Expanded);
+                FoodGroup newGroup = new FoodGroup(group.Title, group.Image1, group.Expanded);
                 //Add the count of food items for Lits Header Titles to use
                 if (group.Expanded)
                 {

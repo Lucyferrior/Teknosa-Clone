@@ -29,7 +29,6 @@ C:/Users/Sefa/Documents/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/AccountPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/Adreslerim.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/CategoryPage.xaml.g.cs
-/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/CategoryPage2.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/Kartlarım.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
@@ -53,6 +52,5 @@ C:/Users/Sefa/Documents/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.pdb
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Teknosa_Clone.csproj.AssemblyReference.cache
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/SifreDegistirme.xaml.g.cs
-/Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/CategoryPage3.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/ProductsPage.xaml.g.cs
 /Users/ruchanyalcin/GitHub/Teknosa-Clone/Teknosa_Clone/Teknosa_Clone/Teknosa_Clone/obj/Debug/netstandard2.0/Views/CategoryPage4.xaml.g.cs
