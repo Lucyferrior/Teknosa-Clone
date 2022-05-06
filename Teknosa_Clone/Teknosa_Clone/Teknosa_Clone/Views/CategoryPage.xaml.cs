@@ -105,7 +105,6 @@ namespace Teknosa_Clone.Views
 
 
 
-        // Dediğim kısım
         private async void TapGestureRecognizer_Tapped(Object sender, ItemTappedEventArgs e)
         {
             var selectedProduct = (Products)e.Item;
