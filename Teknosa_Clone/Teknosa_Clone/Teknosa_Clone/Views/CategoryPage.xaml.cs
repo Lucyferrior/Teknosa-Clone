@@ -98,9 +98,19 @@ namespace Teknosa_Clone.Views
         private async void TapGestureRecognizer_Tapped(Object sender, ItemTappedEventArgs e)
         {
             var selectedProduct = (Products)e.Item;
+       
+            if (selectedProduct.productName == "Telefon")
+            {
+                await Navigation.PushAsync(new CategoryPage2());
 
+            }
 
-            await Navigation.PushAsync(new CategoryPage2());
+            if (selectedProduct.productName == "Bilgisayar ve Tablet")
+            {
+                await Navigation.PushAsync(new MainPage());
+
+            }
+
         }
     }
 }
