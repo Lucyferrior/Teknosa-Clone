@@ -23,17 +23,7 @@ namespace Teknosa_Clone.Views
             lstProducts.ItemsSource = obProducts;
         }
 
-        async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            if (e.Item == null)
-                return;
-
-            await DisplayAlert("Item Tapped", "An item was tapped.", "OK");
-
-            //Deselect Item
-            ((ListView)sender).SelectedItem = null;
-        }
-
+       
         public void AddProducts()
         {
             obProducts = new ObservableCollection<Products>();
@@ -89,8 +79,53 @@ namespace Teknosa_Clone.Views
         {
             var selectedProduct = (Products)e.Item;
 
+            if (selectedProduct.productName == "Siparişlerim")
+            {
+                await Navigation.PushAsync(new Siparislerim());
 
-            //await Navigation.PushAsync(new Category2());
+            }
+
+            if (selectedProduct.productName == "Favorilerim")
+            {
+                //await Navigation.PushAsync(new ));
+
+            }
+
+            if (selectedProduct.productName == "Satıcı Sorularım")
+            {
+                await Navigation.PushAsync(new SaticiSoru());
+
+            }
+
+            if (selectedProduct.productName == "Adreslerim")
+            {
+                await Navigation.PushAsync(new Adreslerim());
+
+            }
+
+            if (selectedProduct.productName == "Kayıtlı Kartlarım")
+            {
+                await Navigation.PushAsync(new Kartlarım());
+
+            }
+
+            if (selectedProduct.productName == "Üyelik Bilgilerim")
+            {
+                await Navigation.PushAsync(new UyelikBilgileri());
+
+            }
+
+            //if (selectedProduct.productName == "İletişim İzinlerim")
+            //{
+            //    await Navigation.PushAsync(new ());
+
+            //}
+
+            if (selectedProduct.productName == "Şifre Değiştirme")
+            {
+                await Navigation.PushAsync(new SifreDegistirme());
+
+            }
         }
     }
 }

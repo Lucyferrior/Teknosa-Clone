@@ -16,5 +16,11 @@ namespace Teknosa_Clone.Views
         {
             InitializeComponent();
         }
+
+        private async void ImageButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+
+        }
     }
 }
