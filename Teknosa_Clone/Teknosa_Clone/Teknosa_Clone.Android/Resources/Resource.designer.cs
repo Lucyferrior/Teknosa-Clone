@@ -16517,25 +16517,25 @@ namespace Teknosa_Clone.Droid
 			public const int btn_radio_on_to_off_mtrl_animation = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int cagrimerkez = 2131165279;
+			public const int camasir = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int camasir = 2131165280;
+			public const int design_fab_background = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_fab_background = 2131165281;
+			public const int design_ic_visibility = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_ic_visibility = 2131165282;
+			public const int design_ic_visibility_off = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_ic_visibility_off = 2131165283;
+			public const int design_password_eye = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int design_password_eye = 2131165284;
+			public const int design_snackbar_background = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int design_snackbar_background = 2131165285;
+			public const int favinfo = 2131165285;
 			
 			// aapt resource value: 0x7F070066
 			public const int fon = 2131165286;

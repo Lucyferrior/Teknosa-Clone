@@ -3,43 +3,35 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Teknosa_Clone.Views.UyelikBilgileri"
-    Shell.NavBarIsVisible="False">
+    Shell.NavBarIsVisible="true"
+    Shell.BackgroundColor="White"
+    Shell.ForegroundColor="Black"
+    Shell.TitleColor="Black"
+    Title="Üyelik Bilgilerim">
 
-<Grid>
-    <StackLayout VerticalOptions="StartAndExpand" Orientation="Horizontal" Margin="5,10,0,0">
-                <ImageButton Source="https://img.icons8.com/ios-glyphs/344/chevron-left.png"
-                             HeightRequest="15"
-                             BackgroundColor="Transparent"
-                             HorizontalOptions="Start"
-                             VerticalOptions="Center"
-                             Clicked="Button_Clicked"
-                             ></ImageButton>
-
-<Label Text="Üyelik Bilgilerim"  TextColor="Black" HorizontalOptions="Start" FontAttributes="Bold"></Label>
-                </StackLayout>
-    <StackLayout Orientation="Vertical" VerticalOptions="Start" Margin="15,70,0,0">
-        <Label Text="Ad"></Label>  
-        <Entry Placeholder="Name"></Entry>  
-        <Label Text="Soyad"></Label>  
-        <Entry Placeholder="Surname"></Entry>  
-        <Label Text="E-Posta"></Label>
-        <Label Text="example@gmail.com"></Label> 
-        <Label Text="Sistem gereği e-posta bilginiz değiştirilememektedir. Detaylı bilgi için
+    <Grid>
+        <StackLayout Orientation="Vertical" VerticalOptions="Start" Margin="20">
+            <Label Text="Ad"></Label>
+            <Entry Placeholder="Name"></Entry>
+            <Label Text="Soyad"></Label>
+            <Entry Placeholder="Surname"></Entry>
+            <Label Text="E-Posta"></Label>
+            <Label Text="example@gmail.com"></Label>
+            <Label Text="Sistem gereği e-posta bilginiz değiştirilememektedir. Detaylı bilgi için
 Teknosa Canlı Destek'e yazabilir ya da 0850 222 55 99 numaralı Müşteri Hizmetlerimizi
 arayabilirsiniz." TextColor="Black" Margin="0,10,0,10"></Label>
 
-        <Label Text="Cep Telefonu"></Label>
-        <Entry Placeholder="(555) 555 55 55"></Entry>
-        <Label Text="Doğum Tarihi"/>
-
-        <DatePicker>
-        </DatePicker>
-        <Button Text="Kaydet" TextColor="White" BackgroundColor="DarkBlue" CornerRadius="50" 
+            <Label Text="Cep Telefonu"></Label>
+            <Entry Placeholder="(555) 555 55 55" Keyboard="Numeric"></Entry>
+            <Label Text="Doğum Tarihi"/>
+            <DatePicker>
+            </DatePicker>
+            <Button Text="Kaydet" TextColor="White" BackgroundColor="DarkBlue" CornerRadius="50" 
             HeightRequest="40" Margin="10,10,20,50"
             FontSize="11" TextTransform="None" FontAttributes="Bold"></Button>
 
 
-    </StackLayout>
+        </StackLayout>
     </Grid>
 
 </ContentPage>  

@@ -13,7 +13,6 @@ namespace Teknosa_Clone
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 
