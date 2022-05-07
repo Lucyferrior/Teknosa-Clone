@@ -13,7 +13,21 @@ namespace Teknosa_Clone.Views
 			InitializeComponent ();
 			BindingContext = new SearchPageViewModel();
 		}
-		
+
+        private void Entry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+			Entry entry = sender as Entry;
+			if(entry.Text == "")
+            {
+				barkodImage.IsVisible = true;
+				scrollProducts.IsVisible = false;
+            }
+            else
+            {
+				barkodImage.IsVisible = false;
+				scrollProducts.IsVisible = true;
+			}
+        }
     }
 }
 

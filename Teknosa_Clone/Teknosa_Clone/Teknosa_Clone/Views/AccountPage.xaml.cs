@@ -70,9 +70,6 @@ namespace Teknosa_Clone.Views
                 productName = "Şifre Değiştirme",
                 productImage = "https://img.icons8.com/material-outlined/344/unlock.png"
             });
-
-
-
         }
 
         private async void TapGestureRecognizer_Tapped(Object sender, ItemTappedEventArgs e)
@@ -87,8 +84,7 @@ namespace Teknosa_Clone.Views
 
             if (selectedProduct.productName == "Favorilerim")
             {
-                //await Navigation.PushAsync(new ));
-
+                await Navigation.PushAsync(new FavoritePage());
             }
 
             if (selectedProduct.productName == "Satıcı Sorularım")

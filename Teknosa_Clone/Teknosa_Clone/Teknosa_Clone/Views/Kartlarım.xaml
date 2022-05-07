@@ -3,41 +3,22 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Teknosa_Clone.Views.Kartlarım"
-    Shell.BackgroundColor="DarkOrange"
-    Shell.NavBarIsVisible="False">
+    Shell.NavBarIsVisible="true"
+    Shell.BackgroundColor="White"
+    Shell.ForegroundColor="Black"
+    Shell.TitleColor="Black"
+    Title="Kayıtlı Kartlarım">
 
 
     <ContentPage.Content>
         <Grid >
-
-            <StackLayout VerticalOptions="StartAndExpand" Orientation="Horizontal" Margin="10,5,20,0">
-                <ImageButton Source="https://img.icons8.com/ios-glyphs/344/chevron-left.png"
-                             HeightRequest="15"
-                             BackgroundColor="Transparent"
-                             HorizontalOptions="Start"
-                             VerticalOptions="Center"
-                             Clicked="Button_Clicked"
-                             ></ImageButton>
-
-                <Label Text="Kayıtlı Kartlarım"  TextColor="Black" HorizontalOptions="Start" FontAttributes="Bold"></Label>
-                
-            </StackLayout>
-
-            <StackLayout VerticalOptions="Center" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
-                <Image Source="https://img.icons8.com/color/344/info.png" HeightRequest="75"
-                       Margin="0,100,0,0"></Image>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                <Image Source="https://img.icons8.com/color/344/info.png" HeightRequest="75"/>
 
                 <Label Text="Kayıtlı Kartınız Bulunamadı" FontSize="15" 
-                       TextColor="Black" TextDecorations="None"
-                       Margin="0,0,0,0"></Label>
-                
-
-
+                       TextColor="Black"/>
             </StackLayout>
-
-
         </Grid>
-
     </ContentPage.Content>
 </ContentPage>
 

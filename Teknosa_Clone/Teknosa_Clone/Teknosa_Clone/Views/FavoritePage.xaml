@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Teknosa_Clone.Views.FavoritePage"
+             Title="Favorilerim"
+             Shell.TitleColor="Black"
+             Shell.BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand">
+            <StackLayout IsVisible="false">
+                <Image Source="https://img.icons8.com/color/344/info.png" BackgroundColor="Transparent"/>
+                <Label Text="Henüz Favori Ürününüz Bulunmuyor" TextColor="Black"
+                   Margin="10"
+                   HorizontalOptions="Center"
+                   FontSize="Medium"/>
+            </StackLayout>
+            <StackLayout IsVisible="true">
+                <CollectionView ItemsSource="{Binding items}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="Transparent" BackgroundColor="Transparent">
+                                <StackLayout>
+                                    
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image VerticalOptions="Start" HeightRequest="70" Source="{Binding ImageSource}"/>
+                                        <StackLayout HorizontalOptions="FillAndExpand">
+                                            <Label TextColor="Black">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="{Binding Mark}" FontAttributes="Bold"/>
+                                                        <Span Text=" "/>
+                                                        <Span Text="{Binding Description}" />
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+
+                                            
+                                            <Label Margin="0,15">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="Satıcı: " TextColor="Gray"/>
+                                                        <Span Text="Teknosa" TextColor="Black" FontAttributes="Bold"/>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                            
+                                            <Label TextColor="Black" 
+                                               FontAttributes="Bold"
+                                               FontSize="Medium"
+                                               Margin="0,0,20,0">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="{Binding Cost}"/>
+                                                        <Span Text=" TL" />
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                            
+                                            <Button BackgroundColor="{StaticResource Primary}"
+                                                    TextColor="White"
+                                                    CornerRadius="50"
+                                                    HorizontalOptions="Fill"
+                                                    Margin="0,20,0,10"
+                                                    Text="Sepete Ekle"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                    
+                                    
+                                    <BoxView BackgroundColor="Gray" HeightRequest="0.1"/>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

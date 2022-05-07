@@ -35,6 +35,7 @@
                                PlaceholderColor="Gray"
                                TextColor="Black"
                                Margin="0" 
+                               TextChanged="Entry_TextChanged"
                                IsSpellCheckEnabled="False"
                                IsTextPredictionEnabled="False"
                                VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand"
@@ -47,7 +48,7 @@
                        HorizontalOptions="EndAndExpand"
                        VerticalOptions="Center"/>
             </StackLayout>
-            <StackLayout x:Name="barkodImage" IsVisible="false">
+            <StackLayout x:Name="barkodImage" IsVisible="true">
                 <ImageButton 
                         Source="https://www.iconsdb.com/icons/preview/orange/barcode-xxl.png" 
                          HeightRequest="70"
@@ -64,15 +65,61 @@
                    Margin="0"
                    Padding="0"
                    />
+                <StackLayout Margin="20">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Son Aramalarınız" TextColor="Black"
+                           FontAttributes="Bold"
+                           FontSize="Subtitle"/>
+                        <Label Text="Temizle"
+                           TextDecorations="Underline"
+                           TextColor="Gray"
+                           HorizontalOptions="EndAndExpand"
+                           VerticalOptions="Center"/>
+                    </StackLayout>
+                    <!-- sunucu bağlandığında listview yap-->
+                    <Label Margin="0,10" Text="Ps"/>
+
+                    <Label Text="Popüler Aramalar" FontSize="Subtitle"
+                           TextColor="Black"
+                           Margin="0,10"
+                           FontAttributes="Bold"/>
+                    <StackLayout Orientation="Horizontal" Margin="0,10">
+                        <StackLayout.Resources>
+                            <Style TargetType="Button">
+                                <Setter Property="TextColor" Value="Black"/>
+                                <Setter Property="CornerRadius" Value="50"/>
+                                <Setter Property="BorderColor" Value="Gray"/>
+                                <Setter Property="BorderWidth" Value=".1"/>
+                                <Setter Property="TextTransform" Value="None"/>
+                            </Style>
+                        </StackLayout.Resources>
+                        <Button Text="deneAme" BackgroundColor="Transparent"/>
+                        <Button Text="dyson" BackgroundColor="Transparent"/>
+                        <Button Text="iphone 12" BackgroundColor="Transparent"/>
+                    </StackLayout>
+                    <StackLayout>
+                        
+                    </StackLayout>
+                </StackLayout>
+                
             </StackLayout>
-            <ScrollView>
+            
+            <ScrollView IsVisible="false" x:Name="scrollProducts">
                 <StackLayout>
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="En İyi Eşleşmeler (1)"
-                           Margin="15"
-                           TextColor="Black"
-                           FontAttributes="Bold"
-                           FontSize="Medium"/>
+                        <Label Margin="15"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="Medium">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="En İyi Eşleşmeler"/>
+                                    <Span Text=" ("/>
+                                    <Span Text="{Binding items.Count}"/>
+                                    <Span Text=")"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
                         <StackLayout Orientation="Horizontal" 
                                  Margin="0,0,20,0"
                                  HorizontalOptions="EndAndExpand"
@@ -81,32 +128,37 @@
                             <Label Text=">"/>
                         </StackLayout>
                     </StackLayout>
-                    <CollectionView ItemsSource="{Binding urunler}">
+                    <CollectionView ItemsSource="{Binding items}">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <Frame BorderColor="Transparent" BackgroundColor="Transparent" >
-                                    <StackLayout Orientation="Horizontal">
-                                        <Image HeightRequest="70" Source="{Binding imageSource}"/>
+                                <Frame BorderColor="Transparent" BackgroundColor="Transparent">
+                                    <StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image HeightRequest="70" Source="{Binding ImageSource}"/>
 
-                                        <Label TextColor="Black">
+                                            <Label TextColor="Black">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="{Binding Mark}" FontAttributes="Bold"/>
+                                                        <Span Text=" "/>
+                                                        <Span Text="{Binding Description}" />
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                        </StackLayout>
+                                        <Label TextColor="Black" 
+                                               FontAttributes="Bold"
+                                               FontSize="Medium"
+                                               Margin="0,0,20,0"
+                                               HorizontalOptions="EndAndExpand">
                                             <Label.FormattedText>
                                                 <FormattedString>
-                                                    <Span Text="{Binding mark}" FontAttributes="Bold"/>
-                                                    <Span Text=" "/>
-                                                    <Span Text="{Binding description}" />
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                        
-                                        <Label TextColor="Black">
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="{Binding cost}"/>
+                                                    <Span Text="{Binding Cost}"/>
                                                     <Span Text=" TL" />
                                                 </FormattedString>
                                             </Label.FormattedText>
                                         </Label>
-                                        
+                                        <BoxView BackgroundColor="Gray" HeightRequest="0.5"/>
                                     </StackLayout>
                                 </Frame>
                             </DataTemplate>

@@ -1,22 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
+using Teknosa_Clone.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Teknosa_Clone.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ShoppingCartPage : ContentPage
+    public partial class FavoritePage : ContentPage
     {
-        public ShoppingCartPage()
+        public FavoritePage()
         {
             InitializeComponent();
+            BindingContext = new FavoritePageViewModel();
         }
-
     }
 }
