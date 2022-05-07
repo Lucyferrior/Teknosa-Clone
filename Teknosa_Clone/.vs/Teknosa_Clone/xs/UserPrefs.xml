@@ -1,24 +1,20 @@
 ﻿<Properties StartupConfiguration="{5FA60943-5D61-4C5C-B0C0-FBE6DAAD33DC}|Default">
-  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.pixel_2_r_11_0_-_api_30" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3.3" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/Views/CategoryPage4.xaml">
-    <Files>
-      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/CategoryPage4.xaml" Line="32" Column="55" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/CategoryPage4.xaml.cs" Line="92" Column="63" />
-      <File FileName="Teknosa_Clone/Teknosa_Clone/Models/FoodGroup.cs" Line="47" Column="51" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.pixel_2_r_11_0_-_api_30" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Teknosa_Clone" expanded="True">
             <Node name="Teknosa_Clone" expanded="True">
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="FoodGroup.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="CategoryPage.xaml" expanded="True" />
                 <Node name="CategoryPage4.xaml" expanded="True" />
@@ -32,5 +28,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3.3" />
 </Properties>
