@@ -3,21 +3,14 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Teknosa_Clone.Views.SifreDegistirme"
-    Shell.NavBarIsVisible="False">
+    Shell.NavBarIsVisible="true"
+    Shell.BackgroundColor="White"
+    Shell.ForegroundColor="Black"
+    Shell.TitleColor="Black"
+    Title="Şifre Değiştirme">
 
 <Grid>
-    <StackLayout VerticalOptions="StartAndExpand" Orientation="Horizontal" Margin="5,10,0,0">
-                <ImageButton Source="https://img.icons8.com/ios-glyphs/344/chevron-left.png"
-                             HeightRequest="15"
-                             BackgroundColor="Transparent"
-                             HorizontalOptions="Start"
-                             VerticalOptions="Center"
-                             Clicked="Button_Clicked"
-                             ></ImageButton>
-
-<Label Text="Şifre Değiştirme"  TextColor="Black" HorizontalOptions="Start" FontAttributes="Bold"></Label>
-                </StackLayout>
-    <StackLayout Orientation="Vertical" VerticalOptions="Start" Margin="18,70,0,0"> 
+    <StackLayout Orientation="Vertical" VerticalOptions="Start" Margin="20"> 
       
 
         <Entry Placeholder="Mevcut Şifre"
@@ -37,9 +30,9 @@
                     HorizontalOptions="Start"
                         VerticalOptions="Start"
                             Margin="10,2,0,0"/>
-                                <Label Text=" En az 1 büyük har ve 1 küçük harf içermelidir. &#10; Minimum 8 karakter içermelidir. &#10; En az 1 rakam içermelidir." TextColor="Black"/>
+                <Label Text=" En az 1 büyük har ve 1 küçük harf içermelidir. &#10; Minimum 8 karakter içermelidir. &#10; En az 1 rakam içermelidir." TextColor="Black"/>
             </StackLayout>
-        <Button Text="Kaydet" TextColor="Black" BackgroundColor="LightGray" CornerRadius="50" 
+            <Button Text="Kaydet" TextColor="Black" BackgroundColor="LightGray" CornerRadius="50" 
             HeightRequest="40" Margin="10,10,20,50"
             FontSize="11" TextTransform="None" FontAttributes="Bold"></Button>
 

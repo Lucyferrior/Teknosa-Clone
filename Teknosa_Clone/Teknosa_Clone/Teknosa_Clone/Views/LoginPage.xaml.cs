@@ -36,7 +36,10 @@ namespace Teknosa_Clone.Views
             {
                 girisStack.IsVisible = false;
             }
-
+        }
+        public async void OnGirisClicked(object obj, EventArgs e)
+        {
+            await Shell.Current.Navigation.PushAsync(new AccountPage());
         }
     }
 }
