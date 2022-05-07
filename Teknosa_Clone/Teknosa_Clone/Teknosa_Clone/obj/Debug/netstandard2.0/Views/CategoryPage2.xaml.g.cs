@@ -13,7 +13,7 @@
 namespace Teknosa_Clone.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CategoryPage2.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/CategoryPage2.xaml")]
     public partial class CategoryPage2 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

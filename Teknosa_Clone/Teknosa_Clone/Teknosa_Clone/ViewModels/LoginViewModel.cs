@@ -24,5 +24,6 @@ namespace Teknosa_Clone.ViewModels
 
             await Shell.Current.Navigation.PushAsync(new LoginPage());
         }
+        
     }
 }

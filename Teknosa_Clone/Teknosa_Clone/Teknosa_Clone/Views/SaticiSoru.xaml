@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Teknosa_Clone.Views.SaticiSoru"
+    Shell.BackgroundColor="DarkOrange"
+    Shell.NavBarIsVisible="False">
+
+
+    <ContentPage.Content>
+        <Grid >
+
+            <StackLayout VerticalOptions="StartAndExpand" Orientation="Horizontal" Margin="10,5,20,0">
+                <ImageButton Source="https://img.icons8.com/ios-glyphs/344/chevron-left.png"
+                             HeightRequest="15"
+                             BackgroundColor="Transparent"
+                             HorizontalOptions="Start"
+                             VerticalOptions="Center"
+                             Clicked="Button_Clicked"
+                             ></ImageButton>
+
+                <Label Text="Satıcı Sorularım"  TextColor="Black" HorizontalOptions="Start" FontAttributes="Bold"></Label>
+                
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Orientation="Vertical" HorizontalOptions="Center">
+                <Image Source="https://img.icons8.com/color/344/info.png" HeightRequest="100"></Image>
+                <Label Text="Henüz Sorunuz Bulunmuyor" FontSize="15" 
+                       TextColor="Black" TextDecorations="None"
+                       Margin="20,30,0,30"></Label>
+                
+
+
+            </StackLayout>
+
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
+

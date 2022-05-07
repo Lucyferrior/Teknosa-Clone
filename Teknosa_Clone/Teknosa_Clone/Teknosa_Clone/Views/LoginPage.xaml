@@ -60,6 +60,7 @@
                         <Button Text="Giriş Yap"
                             TextColor="Black"
                             BackgroundColor="#e9e9e9"
+                            Clicked="OnGirisClicked"
                             CornerRadius="50"/>
                     </StackLayout>
                 </StackLayout>
