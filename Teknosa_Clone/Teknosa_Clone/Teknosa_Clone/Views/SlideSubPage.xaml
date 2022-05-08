@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Teknosa_Clone.Views.SlideSubPage"
+             Shell.BackgroundColor="White"
+             Shell.ForegroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Padding="20,30,20,0">
+                    <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/jenerik_lp_anneler_gunu_220425.jpg"/>
+                    <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/lp_dyson_v15_kamp_220428.jpg"/>
+                    <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/lp_arzum_turk_kahve_sepette_hediye_220428.jpg"/>
+                    <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/lp_lg_marka_philips_utu_sepette_hediye_220428.jpg"/>
+                    <Frame CornerRadius="20" BackgroundColor="#e75a81">
+                        <Label Text="SEVDİKLERİYLE KOLAYCA GÖRÜŞSÜN DİYE" TextColor="White"
+                       HorizontalOptions="CenterAndExpand" FontSize="Large" HorizontalTextAlignment="Center"/>
+                    </Frame>
+
+                    <Grid HorizontalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.Resources>
+                            <ResourceDictionary>
+                                <Style TargetType="Image">
+                                    <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                                    <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                                </Style>
+                            </ResourceDictionary>
+                        </Grid.Resources>
+
+                        <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="0">
+                            <StackLayout BackgroundColor="#b169bf">
+                                <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/2021/telefon.jpg"/>
+                                <Label Text="Cep Telefonu" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" Grid.Column="1" Grid.Row="0">
+                            <StackLayout BackgroundColor="#b169bf">
+                                <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/2021/saat.jpg"/>
+                                <Label Text="Giyilebilir Teknoloji" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="1">
+                            <StackLayout BackgroundColor="#b169bf">
+                                <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/2021/bt_kulaklik.jpg"/>
+                                <Label Text="Bluetooth Kulaklık" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" Grid.Column="1" Grid.Row="1">
+                            <StackLayout BackgroundColor="#b169bf">
+                                <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/2021/tablet.jpg"/>
+                                <Label Text="Tablet" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Grid>
+                    <Label Text="Teknoloji Meraklısı Annelere: Akıllı Cep Telefonları ve Tabletler" TextColor="Black" FontAttributes="Bold"/>
+                    <Label Text="Sosyal mecralarda uzmanlaşmaya karar vermiş, stalker olma konusunda belki de sizinle yarışabilecek kadar başarılı olan anneniz, paylaştığınız fotoğrafın altına bu tarz bir yorum yazıyorsa Anneler Günü hediyesi olarak teknolojik bir alet almanız gerekiyor demektir. Hediye edeceğiniz akıllı telefon sayesinde annenizin sizden, arkadaşlarından ve akrabalarından anbean haberi olabilecek. Ona, sizinle ve arkadaşları ile selfie çekebileceği, çektiği fotoğrafları sosyal medyada paylaşabileceği, merak ettiği konuları hemen araştırabileceği performansı yüksek bir akıllı telefon alabilirsiniz. Siz sadece annenizin hoşuna gidecek ve tarzına uyum sağlayabilecek akıllı telefon modeli hangisi ona karar verin, yeter. Ayrıca internette bolca vakit geçiren ve oyun oynayan bir annenin WBu telefon bana çok küçük geliyor, ekranı tam göremiyorum.' dediğini duyarsanız yapmanız gereken sadece ona bir tablet almak. Alacağınız tablet modeli anne çantasında çok şık duracak. Hem istediği oyunları tabletin geniş ekranından rahatça oynayıp uygulamaları kolayca kullanabilir hem de istediği an, farklı yemek tariflerine bakıp gelecek misafirlerine ziyafet çekebilir." TextColor="Black"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" >
+                    <Label Text="Bizi Takip Edin" TextColor="White" Margin="15" FontAttributes="Bold" FontSize="Medium"/>
+                    <StackLayout Orientation="Horizontal" HeightRequest="55">
+                        <StackLayout.Resources>
+                            <ResourceDictionary>
+                                <Style TargetType="Frame">
+                                    <Setter Property="Padding" Value="0"/>
+                                    <Setter Property="CornerRadius" Value="50"/>
+                                    <Setter Property="Margin" Value="9,0"/>
+                                </Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </ResourceDictionary>
+                        </StackLayout.Resources>
+                        <Frame>
+                            <Image Source="https://img.icons8.com/glyph-neue/344/facebook-new.png"/>
+                        </Frame>
+                        <Frame>
+                            <Image Source="https://img.icons8.com/ios/344/twitter--v1.png"/>
+                        </Frame>
+                        <Frame>
+                            <Image Source="https://img.icons8.com/ios-filled/344/linkedin-circled--v1.png"/>
+                        </Frame>
+                        <Frame>
+                            <Image Source="https://img.icons8.com/material-outlined/344/youtube-play--v1.png"/>
+                        </Frame>
+                        <Frame>
+                            <Image Source="https://img.icons8.com/ios-filled/344/instagram-new--v1.png"/>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

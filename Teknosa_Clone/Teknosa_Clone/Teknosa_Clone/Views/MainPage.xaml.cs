@@ -23,6 +23,10 @@ namespace Teknosa_Clone.Views
         {
             base.OnAppearing();
         }
+        async private void SlideButtonClicked(object sender, EventArgs e)
+        {
+            await Shell.Current.Navigation.PushAsync(new SlideSubPage());
+        }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
