@@ -8,7 +8,6 @@
         <ListView  x:Name="GroupedView"
     GroupDisplayBinding="{Binding Title}"
     RowHeight="75"
-    GroupShortNameBinding="{Binding ShortName}"
     IsGroupingEnabled="true"
     SeparatorVisibility="Default"
     SeparatorColor="Gray"
@@ -28,18 +27,13 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal" Padding="5,5,5,5" BackgroundColor="White">
+                            <Image Source="{Binding Image1}"></Image>
                             <Label Text="{Binding CategoryTitle}" 
                      TextColor="Black"
                      FontSize="20"
                      FontAttributes="None"
                      VerticalOptions="Center"
                      HorizontalOptions="StartAndExpand"/>
-
-                            <!--<Button BackgroundColor="Transparent" ImageSource="https://img.icons8.com/metro/344/chevron-right.png"
-                      MinimumHeightRequest="30"
-                      Clicked="HeaderTapped"
-                      HorizontalOptions="EndAndExpand"
-                      CommandParameter="{Binding .}"/>-->
 
                             <ImageButton Source="https://img.icons8.com/metro/344/chevron-right.png" BackgroundColor="Transparent"
                       HeightRequest="20"

@@ -34,7 +34,6 @@
         <ShellContent Title="Kategoriler" Icon="icon_categories.png" ContentTemplate="{DataTemplate local:CategoryPage}" />
         <ShellContent Title="Sepetim" Icon="icon_navcart.png" ContentTemplate="{DataTemplate local:ShoppingCartPage}" />
         <ShellContent Title="Favorilerim" Icon="icon_fav.png" ContentTemplate="{DataTemplate local:FavoritePage}" />
-        <ShellContent Title="Destek" Icon="icon_help.png" ContentTemplate="{DataTemplate local:AccountPage}" />
     </TabBar>
 
 

@@ -7,7 +7,7 @@
     Shell.BackgroundColor="White"
     Shell.ForegroundColor="Black"
     Shell.TitleColor="Black"
-    Title="Siparişlerim">
+    Title="Adreslerim">
 
 
     <ContentPage.Content>
