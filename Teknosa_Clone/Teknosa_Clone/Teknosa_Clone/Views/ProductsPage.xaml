@@ -1,10 +1,66 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
-<ContentPage
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="Teknosa_Clone.Views.ProductsPage">
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Teknosa_Clone.Views.ProductsPage"
+             Title="{Binding Mark}"
+             Shell.TitleColor="Black"
+             Shell.BackgroundColor="White">
+
     <ContentPage.Content>
-        <Label Text="This is product page"></Label>
+        <Grid>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Start" >
+                <Label Text="Karşılaştır"/>
+                
+            </StackLayout>
+
+                <CollectionView ItemsSource="{Binding items}"
+                    ItemsLayout="VerticalGrid, 2"  VerticalScrollBarVisibility="Always" >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="200" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200" />
+                        <ColumnDefinition Width="200" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Orientation="Vertical">
+                        <ImageButton Source="https://img.icons8.com/ios/344/bookmark-ribbon--v1.png" HorizontalOptions="EndAndExpand"
+                        BackgroundColor="Transparent" HeightRequest="20" Margin="0,0,10,0"/>
+
+                        <Image Source="{Binding ImageSource}" HeightRequest="200"></Image>
+                        <Label Text="Ücretsiz Teslimat" TextColor="MediumPurple" FontSize="10"></Label>
+
+                        <Label TextColor="Black">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{Binding Mark}" FontAttributes="Bold"/>
+                                    <Span Text=" "/>
+                                    <Span Text="{Binding Description}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                            <Label TextColor="Black" FontAttributes="Bold">
+                                <Label.FormattedText>
+                                        <FormattedString>
+                                        <Span Text="{Binding Cost}"/>
+                                        <Span Text=" TL"/>
+                                        </FormattedString>
+
+                                    </Label.FormattedText>
+
+                                </Label>
+
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
     </ContentPage.Content>
 </ContentPage>
-

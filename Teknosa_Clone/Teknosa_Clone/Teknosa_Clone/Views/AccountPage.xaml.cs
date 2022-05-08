@@ -11,7 +11,7 @@ namespace Teknosa_Clone.Views
 {
     public partial class AccountPage : ContentPage
     {
-        ObservableCollection<Products> obProducts;
+        ObservableCollection<Category> obProducts;
 
 
         public AccountPage()
@@ -26,86 +26,86 @@ namespace Teknosa_Clone.Views
        
         public void AddProducts()
         {
-            obProducts = new ObservableCollection<Products>();
-            obProducts.Add(new Products
+            obProducts = new ObservableCollection<Category>();
+            obProducts.Add(new Category
             {
-                productName = "Siparişlerim",
-                productImage = "https://img.icons8.com/ios/344/shopping-cart.png"
+                Name = "Siparişlerim",
+                ImageSource = "https://img.icons8.com/ios/344/shopping-cart.png"
             });
 
 
-            obProducts.Add(new Products
+            obProducts.Add(new Category
             {
-                productName = "Favorilerim",
-                productImage = "https://img.icons8.com/ios/344/bookmark-ribbon--v1.png"
+                Name = "Favorilerim",
+                ImageSource = "https://img.icons8.com/ios/344/bookmark-ribbon--v1.png"
             });
 
-            obProducts.Add(new Products
+            obProducts.Add(new Category
             {
-                productName = "Satıcı Sorularım",
-                productImage = "https://img.icons8.com/ios/344/ask-question.png"
+                Name = "Satıcı Sorularım",
+                ImageSource = "https://img.icons8.com/ios/344/ask-question.png"
             });
-            obProducts.Add(new Products
+            obProducts.Add(new Category
             {
-                productName = "Adreslerim",
-                productImage = "https://img.icons8.com/ios/344/marker--v1.png"
+                Name = "Adreslerim",
+                ImageSource = "https://img.icons8.com/ios/344/marker--v1.png"
             });
-            obProducts.Add(new Products
+            obProducts.Add(new Category
             {
-                productName = "Kayıtlı Kartlarım",
-                productImage = "https://img.icons8.com/ios/344/bank-card-back-side.png"
+                Name = "Kayıtlı Kartlarım",
+                ImageSource = "https://img.icons8.com/ios/344/bank-card-back-side.png"
             });
-            obProducts.Add(new Products
+            obProducts.Add(new Category
             {
-                productName = "Üyelik Bilgilerim",
-                productImage = "https://img.icons8.com/external-dreamstale-lineal-dreamstale/344/external-user-ui-dreamstale-lineal-dreamstale.png"
+                Name = "Üyelik Bilgilerim",
+                ImageSource = "https://img.icons8.com/external-dreamstale-lineal-dreamstale/344/external-user-ui-dreamstale-lineal-dreamstale.png"
             });
-            obProducts.Add(new Products
+            obProducts.Add(new Category
             {
-                productName = "İletişim İzinlerim",
-                productImage = "https://img.icons8.com/small/344/ok--v1.png"
+                Name = "İletişim İzinlerim",
+                ImageSource = "https://img.icons8.com/small/344/ok--v1.png"
             });
-            obProducts.Add(new Products
+            obProducts.Add(new Category
             {
-                productName = "Şifre Değiştirme",
-                productImage = "https://img.icons8.com/material-outlined/344/unlock.png"
+                Name = "Şifre Değiştirme",
+                ImageSource = "https://img.icons8.com/material-outlined/344/unlock.png"
             });
         }
 
         private async void TapGestureRecognizer_Tapped(Object sender, ItemTappedEventArgs e)
         {
-            var selectedProduct = (Products)e.Item;
+            var selectedProduct = (Category)e.Item;
 
-            if (selectedProduct.productName == "Siparişlerim")
+            if (selectedProduct.Name == "Siparişlerim")
             {
                 await Navigation.PushAsync(new Siparislerim());
 
             }
 
-            if (selectedProduct.productName == "Favorilerim")
+            if (selectedProduct.Name == "Favorilerim")
             {
                 await Navigation.PushAsync(new FavoritePage());
             }
 
-            if (selectedProduct.productName == "Satıcı Sorularım")
+            if (selectedProduct.Name == "Satıcı Sorularım")
             {
                 await Navigation.PushAsync(new SaticiSoru());
 
             }
 
-            if (selectedProduct.productName == "Adreslerim")
+            if (selectedProduct.Name == "Adreslerim")
             {
                 await Navigation.PushAsync(new Adreslerim());
 
             }
 
-            if (selectedProduct.productName == "Kayıtlı Kartlarım")
+            if (selectedProduct.Name == "Kayıtlı Kartlarım")
             {
                 await Navigation.PushAsync(new Kartlarım());
 
             }
 
-            if (selectedProduct.productName == "Üyelik Bilgilerim")
+            if (selectedProduct.Name == "Üyelik Bilgilerim")
             {
                 await Navigation.PushAsync(new UyelikBilgileri());
 
@@ -117,7 +117,7 @@ namespace Teknosa_Clone.Views
 
             //}
 
-            if (selectedProduct.productName == "Şifre Değiştirme")
+            if (selectedProduct.Name == "Şifre Değiştirme")
             {
                 await Navigation.PushAsync(new SifreDegistirme());
 
