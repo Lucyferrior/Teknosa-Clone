@@ -17,14 +17,17 @@ namespace Teknosa_Clone.ViewModels
 
         public Collection<Category> categoriesBinding { get; set; }
         public Collection<Slide> slidesBinding { get; set; }
+        public Collection<Item> itemsBinding { get; set; }
         CategoryDataStore categoryStore = new CategoryDataStore();
         SlideDataStore slideStore = new SlideDataStore();
+        ItemDataStore itemStore = new ItemDataStore();
         public MainPageViewModel()
         {
             LoginCommand = new Command(OnLoginClicked);
             SearchCommand = new Command(OnSearchClicked);
             categoriesBinding = categoryStore.categoryCollection;
             slidesBinding = slideStore.slideCollection;
+            itemsBinding = itemStore.ItemCollection;
         }
         private async void OnLoginClicked(object obj)
         {
