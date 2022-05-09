@@ -6,7 +6,8 @@
              xmlns:vm="clr-namespace:Teknosa_Clone.Views"
              xmlns:local="clr-namespace:Teknosa_Clone.ViewModels" >
     <Shell.TitleView>
-        <Image Source="teknosa.png" HorizontalOptions="StartAndExpand"/>
+        <Image Source="https://www.firmaurfa.com/wp-content/uploads/2017/01/teknosa-logo.jpg"
+               HorizontalOptions="Start"/>
     </Shell.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem Icon="icon_profile.png" Command="{Binding LoginCommand}" />
