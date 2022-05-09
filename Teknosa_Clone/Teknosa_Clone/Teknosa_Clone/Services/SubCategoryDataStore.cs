@@ -40,7 +40,7 @@ namespace Teknosa_Clone.Services
 
 
 
-        public SubCategoryDataStore(string title, ImageSource image, bool expanded = true)
+        public SubCategoryDataStore(string title, ImageSource image, bool expanded = false)
         {
             Title = title;
             Expanded = expanded;
