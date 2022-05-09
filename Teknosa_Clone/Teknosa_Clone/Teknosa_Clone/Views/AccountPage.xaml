@@ -30,10 +30,10 @@ Title="Hesabım"
                             <ViewCell>
                                 <StackLayout Orientation="Horizontal" Margin="5"  VerticalOptions="FillAndExpand" MinimumHeightRequest="60">
 
-                                    <Image Source="{Binding productImage}" WidthRequest="30" HeightRequest="30"/>
+                                    <Image Source="{Binding ImageSource}" WidthRequest="30" HeightRequest="30"/>
 
                                     <StackLayout Orientation="Vertical" Padding="2" VerticalOptions="Center">
-                                        <Label Text="{Binding productName}" FontSize="12" Margin="2" TextColor="Black" FontAttributes="Bold"/>
+                                        <Label Text="{Binding Name}" FontSize="12" Margin="2" TextColor="Black" FontAttributes="Bold"/>
                                     </StackLayout>
 
                                     <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="EndAndExpand">

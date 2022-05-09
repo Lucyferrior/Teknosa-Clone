@@ -4,6 +4,7 @@
              x:Class="Teknosa_Clone.Views.ProductsPage"
              Title="{Binding Mark}"
              Shell.TitleColor="Black"
+             Shell.ForegroundColor="Black"
              Shell.BackgroundColor="White">
 
     <ContentPage.Content>

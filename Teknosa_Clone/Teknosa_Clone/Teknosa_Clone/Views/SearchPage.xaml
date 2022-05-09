@@ -33,6 +33,7 @@
                                />
                         <Entry Placeholder="Ürün, kategori veya marka ara"
                                PlaceholderColor="Gray"
+                               Keyboard="Text"
                                TextColor="Black"
                                Margin="0" 
                                TextChanged="Entry_TextChanged"

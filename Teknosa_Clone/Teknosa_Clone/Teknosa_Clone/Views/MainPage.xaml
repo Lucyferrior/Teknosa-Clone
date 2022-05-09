@@ -5,7 +5,9 @@
              xmlns:model="clr-namespace:Teknosa_Clone.Models"
              xmlns:vm="clr-namespace:Teknosa_Clone.Views"
              xmlns:local="clr-namespace:Teknosa_Clone.ViewModels" >
-
+    <Shell.TitleView>
+        <Image Source="teknosa.png" HorizontalOptions="StartAndExpand"/>
+    </Shell.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem Icon="icon_profile.png" Command="{Binding LoginCommand}" />
     </ContentPage.ToolbarItems>
@@ -32,7 +34,6 @@
                        TextColor="Black"
                        Padding="0"
                        Margin="0"/>
-
                 </StackLayout>
                 <!--kategori  -->
                 <ScrollView
@@ -115,6 +116,7 @@
                                 <DataTemplate x:DataType="model:Item">
                                     <StackLayout Padding="10">
                                         <Frame Padding="0" Margin="0" BorderColor="LightGray"
+                                               WidthRequest="250"
                                                BackgroundColor="Transparent">
                                             <StackLayout>
                                                 <StackLayout Padding="20">

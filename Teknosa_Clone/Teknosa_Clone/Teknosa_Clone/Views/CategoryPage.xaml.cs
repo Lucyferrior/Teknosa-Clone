@@ -2,19 +2,25 @@
 using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using Teknosa_Clone.Models;
+using System.Windows.Input;
 
 namespace Teknosa_Clone.Views
 {
     public partial class CategoryPage : ContentPage
     {
         ObservableCollection<Category> obProducts;
+
         public CategoryPage()
         {
             InitializeComponent();
             AddProducts();
             lstProducts.ItemsSource = obProducts;
+            TapTap.Command = new Command(OnSearchClicked);
         }
-
+        private async void OnSearchClicked(object obj)
+        {
+            await Shell.Current.Navigation.PushAsync(new SearchPage(), true);
+        }
         public void AddProducts()
         {
             try

@@ -5,7 +5,7 @@
              Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView VerticalOptions="FillAndExpand">
             <StackLayout>
                 <StackLayout Padding="20,30,20,0">
                     <Image Source="https://img-teknosa-sap.mncdn.com/anneler-gunu/jenerik_lp_anneler_gunu_220425.jpg"/>
