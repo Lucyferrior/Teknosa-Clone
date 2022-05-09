@@ -1,19 +1,29 @@
 ﻿<Properties StartupConfiguration="{5FA60943-5D61-4C5C-B0C0-FBE6DAAD33DC}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/Views/ProductsPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Teknosa_Clone/Teknosa_Clone/Services/ItemDataStore.cs">
     <Files>
-      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/ProductsPage.xaml" Line="15" Column="29" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/ProductsPage.xaml" Line="8" Column="43" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/ProductsPage.xaml.cs" Line="18" Column="9" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Services/ItemDataStore.cs" Line="44" Column="170" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/AppShell.xaml" Line="18" Column="45" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/CategoryPage.xaml" Line="12" Column="62" />
+      <File FileName="Teknosa_Clone/Teknosa_Clone/Views/SubCategory.xaml" Line="17" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Teknosa_Clone" expanded="True">
             <Node name="Teknosa_Clone" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="ProductsPage.xaml" expanded="True" selected="True" />
+                <Node name="CategoryPage.xaml" expanded="True" />
+                <Node name="ProductsPage.xaml" expanded="True" />
+                <Node name="SubCategory.xaml" expanded="True" />
               </Node>
+              <Node name="AppShell.xaml" expanded="True" />
             </Node>
+            <Node name="Teknosa_Clone.Android" expanded="True" />
             <Node name="Teknosa_Clone.iOS" expanded="True" />
           </Node>
         </State>
@@ -23,10 +33,14 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.pixel_2_r_11_0_-_api_30" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_r_11_0_-_api_30" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3" />
+  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.ItemProperties.Teknosa__Clone.Android PreferredExecutionTarget="Android.pixel_2_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

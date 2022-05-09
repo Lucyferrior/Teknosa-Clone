@@ -34,6 +34,14 @@ namespace Teknosa_Clone.Services
                     Description ="Playstation",
                     Cost = 5000,
                     ImageSource = ImageSource.FromFile("ps.png")
+                },
+
+                new Item
+                {
+                    Mark = "Electrolux",
+                    Description = "PC91-ALRGT Pure C9 Toz Torbasız Elektrikli Süpürge",
+                    Cost = 3999,
+                    ImageSource = "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/787110136/787110136_0_MC/bb56c364785c4d07a8234ed6e24c762a.png"
                 }
                 
             };

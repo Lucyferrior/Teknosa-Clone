@@ -3,10 +3,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 x:Class="Teknosa_Clone.Views.CategoryPage"
-Title="Kategoriler">
+Title="Kategoriler"
+Shell.TitleColor="Black"
+Shell.BackgroundColor="White"
+Shell.ForegroundColor="Black">
 
     <StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand" Padding="10">
-        <SearchBar Placeholder="Ürün, kategori ve marka ara"></SearchBar>
+        <SearchBar Placeholder="Ürün, kategori ve marka ara" ></SearchBar>
 
         <ListView x:Name="lstProducts" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"
         SeparatorColor="LightGray" SeparatorVisibility="None" HasUnevenRows="True"
